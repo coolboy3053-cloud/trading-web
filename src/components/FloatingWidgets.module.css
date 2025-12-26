@@ -1,0 +1,117 @@
+.widgets {
+  position: fixed;
+  right: 2rem;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+.widgetItem {
+  width: 54px;
+  height: 54px;
+  background-color: var(--white);
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--slate-600);
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  position: relative;
+  text-decoration: none;
+}
+
+.widgetItem:hover {
+  background-color: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+  transform: translateX(-5px);
+}
+
+.tooltip {
+  position: absolute;
+  right: calc(100% + 15px);
+  background-color: var(--slate-900);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  pointer-events: none;
+}
+
+.widgetItem:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-5px);
+}
+
+.qrPopup {
+  position: absolute;
+  right: calc(100% + 15px);
+  bottom: 0;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--slate-100);
+  animation: fadeIn 0.3s ease-out;
+  width: 180px;
+  text-align: center;
+}
+
+.qrImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.qrText {
+  color: var(--slate-600);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.scrollTop {
+  background-color: var(--slate-900);
+  color: var(--white);
+  border: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .widgets {
+    right: 1rem;
+    bottom: 100px;
+  }
+
+  .widgetItem {
+    width: 44px;
+    height: 44px;
+  }
+
+  .tooltip {
+    display: none;
+  }
+}

@@ -1,0 +1,137 @@
+.navbar {
+    background-color: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(8px);
+    color: var(--white);
+    padding: 1.25rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.logoImg {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2px 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navLinks a {
+    color: var(--slate-300);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.navLinks a:hover {
+    color: var(--accent);
+}
+
+.langBtn {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--white);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 0 0.5rem;
+}
+
+.langBtn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.contactBtn {
+    background-color: var(--accent);
+    color: var(--white) !important;
+    padding: 0.625rem 1.5rem;
+    border-radius: var(--radius);
+    font-weight: 600 !important;
+}
+
+.contactBtn:hover {
+    background-color: var(--accent-light);
+    transform: translateY(-1px);
+}
+
+.mobileMenuBtn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mobileMenuBtn {
+        display: block;
+    }
+
+    .navLinks {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--slate-900);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: var(--transition);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .navLinks.active {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .langBtn {
+        margin: 1rem 0;
+    }
+}

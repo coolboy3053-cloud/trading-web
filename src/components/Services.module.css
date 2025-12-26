@@ -1,0 +1,98 @@
+.services {
+    padding: 8rem 2rem;
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    color: var(--slate-900);
+    margin-bottom: 1rem;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent);
+    margin: 0 auto 2rem;
+    border-radius: var(--radius-full);
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--slate-500);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.card {
+    padding: 3.5rem 2.5rem;
+    background-color: var(--slate-50);
+    border-radius: var(--radius-lg);
+    transition: var(--transition);
+    border: 1px solid var(--slate-100);
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-light);
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: var(--white);
+    color: var(--accent);
+    border-radius: var(--radius-lg);
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.card:hover .icon {
+    background-color: var(--accent);
+    color: var(--white);
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--slate-900);
+}
+
+.cardDesc {
+    color: var(--slate-500);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .services {
+        padding: 5rem 1.5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

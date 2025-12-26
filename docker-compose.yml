@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    image: node:18-alpine
+    container_name: baisheng-web
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    volumes:
+      # 映射当前目录代码到容器
+      - .:/app
+      # 使用容器独立的 node_modules，避免与 Windows 冲突
+      - /app/node_modules
+    # 启动命令：确保安装依赖并暴露 host
+    command: sh -c "npm install && npm run dev -- --host"

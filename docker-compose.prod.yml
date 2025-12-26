@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  web-prod:
+    image: node:18-alpine
+    container_name: baisheng-prod
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      # ⚠️ 关键配置
+      # 宿主机路径：通过环境变量 DIST_PATH 指定，默认为 ./dist
+      # 容器内路径：直接挂载到 /app，不仅限于 dist 目录名
+      - ${DIST_PATH:-./dist}:/app
+    
+    # 安装 serve 并服务当前目录 (.)
+    # -s: 单页应用模式 (SPA)
+    command: sh -c "npm install -g serve && serve -s . -l 3000"
