@@ -25,7 +25,7 @@ const FloatingWidgets = () => {
                 <span className={styles.tooltip}>微信咨询</span>
                 {showQR && (
                     <div className={styles.qrPopup}>
-                        <img src="/wechat_qr.png" alt="WeChat QR" className={styles.qrImage} />
+                        <img src="wechat_qr.png" alt="WeChat QR" className={styles.qrImage} />
                         <p className={styles.qrText}>扫码咨询官方客服</p>
                     </div>
                 )}

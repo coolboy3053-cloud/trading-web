@@ -23,7 +23,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item1.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/nylon_backpack.jpg',
+            image: 'images/products/nylon_backpack.jpg',
             description: t('products.bags.item1.desc')
         },
         {
@@ -31,7 +31,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item2.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/oxford_backpack.jpg',
+            image: 'images/products/oxford_backpack.jpg',
             description: t('products.bags.item2.desc')
         },
         {
@@ -39,7 +39,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item3.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/backpack_standard.jpg',
+            image: 'images/products/backpack_standard.jpg',
             description: t('products.bags.item3.desc')
         },
         {
@@ -47,7 +47,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item4.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/mens_backpack.jpg',
+            image: 'images/products/mens_backpack.jpg',
             description: t('products.bags.item4.desc')
         },
         {
@@ -55,7 +55,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item5.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/double_open_suitcase.jpg',
+            image: 'images/products/double_open_suitcase.jpg',
             description: t('products.bags.item5.desc')
         },
         {
@@ -63,7 +63,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item6.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/retro_suitcase.jpg',
+            image: 'images/products/retro_suitcase.jpg',
             description: t('products.bags.item6.desc')
         },
         {
@@ -71,7 +71,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item7.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/candy_color_suitcase.jpg',
+            image: 'images/products/candy_color_suitcase.jpg',
             description: t('products.bags.item7.desc')
         },
         {
@@ -79,7 +79,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item8.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/large_capacity_suitcase.jpg',
+            image: 'images/products/large_capacity_suitcase.jpg',
             description: t('products.bags.item8.desc')
         },
         {
@@ -87,7 +87,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item9.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/parent_child_suitcase.jpg',
+            image: 'images/products/parent_child_suitcase.jpg',
             description: t('products.bags.item9.desc')
         },
         {
@@ -95,7 +95,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item10.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/multi_functional_suitcase.jpg',
+            image: 'images/products/multi_functional_suitcase.jpg',
             description: t('products.bags.item10.desc')
         },
         {
@@ -103,7 +103,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item11.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/jewelry_box_bj015.jpg',
+            image: 'images/products/jewelry_box_bj015.jpg',
             description: t('products.bags.item11.desc')
         },
         {
@@ -111,7 +111,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item12.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/jewelry_box_bj0433.jpg',
+            image: 'images/products/jewelry_box_bj0433.jpg',
             description: t('products.bags.item12.desc')
         },
         {
@@ -119,7 +119,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item13.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/jewelry_box_bj1229.jpg',
+            image: 'images/products/jewelry_box_bj1229.jpg',
             description: t('products.bags.item13.desc')
         },
         {
@@ -127,7 +127,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item14.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/double_layer_glasses_case.jpg',
+            image: 'images/products/double_layer_glasses_case.jpg',
             description: t('products.bags.item14.desc')
         },
         {
@@ -135,7 +135,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item15.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/glasses_case_bj1442.jpg',
+            image: 'images/products/glasses_case_bj1442.jpg',
             description: t('products.bags.item15.desc')
         },
         {
@@ -143,7 +143,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item16.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/glasses_case_bg1442.jpg',
+            image: 'images/products/glasses_case_bg1442.jpg',
             description: t('products.bags.item16.desc')
         },
         {
@@ -151,7 +151,7 @@ const ProductShowcase = () => {
             title: t('products.bags.item17.title'),
             categoryId: 'bags',
             categoryLabel: t('products.cat.bags'),
-            image: '/images/products/glasses_case_bj1441.jpg',
+            image: 'images/products/glasses_case_bj1441.jpg',
             description: t('products.bags.item17.desc')
         },
         // Daily Necessities category
@@ -160,7 +160,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item1.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/creative_horn_cup.jpg',
+            image: 'images/products/creative_horn_cup.jpg',
             description: t('products.daily.item1.desc')
         },
         {
@@ -168,7 +168,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item2.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/facial_tissue.jpg',
+            image: 'images/products/facial_tissue.jpg',
             description: t('products.daily.item2.desc')
         },
         {
@@ -176,7 +176,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item3.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/womens_fashion_scarf.jpg',
+            image: 'images/products/womens_fashion_scarf.jpg',
             description: t('products.daily.item3.desc')
         },
         {
@@ -184,7 +184,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item4.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/modern_kitchen_cutting_board.jpg',
+            image: 'images/products/modern_kitchen_cutting_board.jpg',
             description: t('products.daily.item4.desc')
         },
         {
@@ -192,7 +192,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item5.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/fashion_umbrella.png',
+            image: 'images/products/fashion_umbrella.png',
             description: t('products.daily.item5.desc')
         },
         {
@@ -200,7 +200,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item6.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/blue_rim_ceramic_plate.jpg',
+            image: 'images/products/blue_rim_ceramic_plate.jpg',
             description: t('products.daily.item6.desc')
         },
         {
@@ -208,7 +208,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item7.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/solid_wood_dinner_plate.png',
+            image: 'images/products/solid_wood_dinner_plate.png',
             description: t('products.daily.item7.desc')
         },
         {
@@ -216,7 +216,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item8.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/high_capacity_power_bank.jpg',
+            image: 'images/products/high_capacity_power_bank.jpg',
             description: t('products.daily.item8.desc')
         },
         {
@@ -224,7 +224,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item9.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/bluetooth_wireless_headphones.jpg',
+            image: 'images/products/bluetooth_wireless_headphones.jpg',
             description: t('products.daily.item9.desc')
         },
         {
@@ -232,7 +232,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item10.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/phone_case.jpg',
+            image: 'images/products/phone_case.jpg',
             description: t('products.daily.item10.desc')
         },
         {
@@ -240,7 +240,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item11.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/retro_creative_wall_clock.jpg',
+            image: 'images/products/retro_creative_wall_clock.jpg',
             description: t('products.daily.item11.desc')
         },
         {
@@ -248,7 +248,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item12.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/fashion_leather_boots.jpg',
+            image: 'images/products/fashion_leather_boots.jpg',
             description: t('products.daily.item12.desc')
         },
         {
@@ -256,7 +256,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item13.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/mock_neck_long_sleeve_shirt.jpg',
+            image: 'images/products/mock_neck_long_sleeve_shirt.jpg',
             description: t('products.daily.item13.desc')
         },
         {
@@ -264,7 +264,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item14.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/avocado_jam_spatula.jpg',
+            image: 'images/products/avocado_jam_spatula.jpg',
             description: t('products.daily.item14.desc')
         },
         {
@@ -272,7 +272,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item15.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/laundry_basket_1.jpg',
+            image: 'images/products/laundry_basket_1.jpg',
             description: t('products.daily.item15.desc')
         },
         {
@@ -280,7 +280,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item16.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/leather_shoulder_bag.jpg',
+            image: 'images/products/leather_shoulder_bag.jpg',
             description: t('products.daily.item16.desc')
         },
         {
@@ -288,7 +288,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item17.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/warm_cotton_slippers.jpg',
+            image: 'images/products/warm_cotton_slippers.jpg',
             description: t('products.daily.item17.desc')
         },
         {
@@ -296,7 +296,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item18.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/high_end_tableware.jpg',
+            image: 'images/products/high_end_tableware.jpg',
             description: t('products.daily.item18.desc')
         },
         {
@@ -304,7 +304,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item19.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/jewelry_storage_box.jpg',
+            image: 'images/products/jewelry_storage_box.jpg',
             description: t('products.daily.item19.desc')
         },
         {
@@ -312,7 +312,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item20.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/woven_straw_basket.jpg',
+            image: 'images/products/woven_straw_basket.jpg',
             description: t('products.daily.item20.desc')
         },
         {
@@ -320,7 +320,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item21.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/laundry_basket_2.jpg',
+            image: 'images/products/laundry_basket_2.jpg',
             description: t('products.daily.item21.desc')
         },
         {
@@ -328,7 +328,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item22.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/winter_home_slippers.jpg',
+            image: 'images/products/winter_home_slippers.jpg',
             description: t('products.daily.item22.desc')
         },
         {
@@ -336,7 +336,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item23.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/long_handle_automatic_umbrella.jpg',
+            image: 'images/products/long_handle_automatic_umbrella.jpg',
             description: t('products.daily.item23.desc')
         },
         {
@@ -344,7 +344,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item24.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/european_style_thermos.jpg',
+            image: 'images/products/european_style_thermos.jpg',
             description: t('products.daily.item24.desc')
         },
         {
@@ -352,7 +352,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item25.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/turtleneck_cashmere_sweater.jpg',
+            image: 'images/products/turtleneck_cashmere_sweater.jpg',
             description: t('products.daily.item25.desc')
         },
         {
@@ -360,7 +360,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item26.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/loose_bomber_jacket.png',
+            image: 'images/products/loose_bomber_jacket.png',
             description: t('products.daily.item26.desc')
         },
         {
@@ -368,7 +368,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item27.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/creative_mug.jpg',
+            image: 'images/products/creative_mug.jpg',
             description: t('products.daily.item27.desc')
         },
         {
@@ -376,7 +376,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item28.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/lazy_futon_cushion.jpg',
+            image: 'images/products/lazy_futon_cushion.jpg',
             description: t('products.daily.item28.desc')
         },
         {
@@ -384,7 +384,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item29.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/creative_ceramic_bowl.jpg',
+            image: 'images/products/creative_ceramic_bowl.jpg',
             description: t('products.daily.item29.desc')
         },
         {
@@ -392,7 +392,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item30.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/new_martin_boots.jpg',
+            image: 'images/products/new_martin_boots.jpg',
             description: t('products.daily.item30.desc')
         },
         {
@@ -400,7 +400,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item31.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/stainless_steel_frying_pan.png',
+            image: 'images/products/stainless_steel_frying_pan.png',
             description: t('products.daily.item31.desc')
         },
         {
@@ -408,7 +408,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item32.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/flannel_slippers.jpg',
+            image: 'images/products/flannel_slippers.jpg',
             description: t('products.daily.item32.desc')
         },
         {
@@ -416,7 +416,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item33.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/retro_dress.jpg',
+            image: 'images/products/retro_dress.jpg',
             description: t('products.daily.item33.desc')
         },
         {
@@ -424,7 +424,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item34.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/mini_backpack.jpg',
+            image: 'images/products/mini_backpack.jpg',
             description: t('products.daily.item34.desc')
         },
         {
@@ -432,7 +432,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item35.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/british_style_leather_shoes.jpg',
+            image: 'images/products/british_style_leather_shoes.jpg',
             description: t('products.daily.item35.desc')
         },
         {
@@ -440,7 +440,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item36.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/retro_knit_sweater_dress.jpg',
+            image: 'images/products/retro_knit_sweater_dress.jpg',
             description: t('products.daily.item36.desc')
         },
         {
@@ -448,7 +448,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item37.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/portable_carpet.jpg',
+            image: 'images/products/portable_carpet.jpg',
             description: t('products.daily.item37.desc')
         },
         {
@@ -456,7 +456,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item38.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/trendy_creative_crossbody_bag.jpg',
+            image: 'images/products/trendy_creative_crossbody_bag.jpg',
             description: t('products.daily.item38.desc')
         },
         {
@@ -464,7 +464,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item39.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/rectangular_dinner_plate.jpg',
+            image: 'images/products/rectangular_dinner_plate.jpg',
             description: t('products.daily.item39.desc')
         },
         {
@@ -472,7 +472,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item40.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/colored_glaze_plate.png',
+            image: 'images/products/colored_glaze_plate.png',
             description: t('products.daily.item40.desc')
         },
         {
@@ -480,7 +480,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item41.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/animal_creative_pajamas.jpg',
+            image: 'images/products/animal_creative_pajamas.jpg',
             description: t('products.daily.item41.desc')
         },
         {
@@ -488,7 +488,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item42.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/ceramic_plate.jpg',
+            image: 'images/products/ceramic_plate.jpg',
             description: t('products.daily.item42.desc')
         },
         {
@@ -496,7 +496,7 @@ const ProductShowcase = () => {
             title: t('products.daily.item43.title'),
             categoryId: 'daily',
             categoryLabel: t('products.cat.daily'),
-            image: '/images/products/laundry_hamper.jpg',
+            image: 'images/products/laundry_hamper.jpg',
             description: t('products.daily.item43.desc')
         },
         // Home Series category
@@ -505,7 +505,7 @@ const ProductShowcase = () => {
             title: t('products.home.item1.title'),
             categoryId: 'home',
             categoryLabel: t('products.cat.home'),
-            image: '/images/products/retro_creative_wall_clock.jpg',
+            image: 'images/products/retro_creative_wall_clock.jpg',
             description: t('products.home.item1.desc')
         },
         {
@@ -513,7 +513,7 @@ const ProductShowcase = () => {
             title: t('products.home.item2.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/solid_wood_cabinet.jpg',
+            image: 'images/products/solid_wood_cabinet.jpg',
             description: t('products.home.item2.desc')
         },
         {
@@ -521,7 +521,7 @@ const ProductShowcase = () => {
             title: t('products.home.item3.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/oak_coffee_table.jpg',
+            image: 'images/products/oak_coffee_table.jpg',
             description: t('products.home.item3.desc')
         },
         {
@@ -529,7 +529,7 @@ const ProductShowcase = () => {
             title: t('products.home.item4.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/american_style_sofa.jpg',
+            image: 'images/products/american_style_sofa.jpg',
             description: t('products.home.item4.desc')
         },
         {
@@ -537,7 +537,7 @@ const ProductShowcase = () => {
             title: t('products.home.item5.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/bedroom_storage_cabinet.jpg',
+            image: 'images/products/bedroom_storage_cabinet.jpg',
             description: t('products.home.item5.desc')
         },
         {
@@ -545,7 +545,7 @@ const ProductShowcase = () => {
             title: t('products.home.item6.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/floor_coat_rack.jpg',
+            image: 'images/products/floor_coat_rack.jpg',
             description: t('products.home.item6.desc')
         },
         {
@@ -553,7 +553,7 @@ const ProductShowcase = () => {
             title: t('products.home.item7.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/foldable_leisure_sofa.jpg',
+            image: 'images/products/foldable_leisure_sofa.jpg',
             description: t('products.home.item7.desc')
         },
         {
@@ -561,7 +561,7 @@ const ProductShowcase = () => {
             title: t('products.home.item8.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/simple_mattress.jpg',
+            image: 'images/products/simple_mattress.jpg',
             description: t('products.home.item8.desc')
         },
         {
@@ -569,7 +569,7 @@ const ProductShowcase = () => {
             title: t('products.home.item9.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/mini_round_table.jpg',
+            image: 'images/products/mini_round_table.jpg',
             description: t('products.home.item9.desc')
         },
         {
@@ -577,7 +577,7 @@ const ProductShowcase = () => {
             title: t('products.home.item10.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/small_coffee_table.jpg',
+            image: 'images/products/small_coffee_table.jpg',
             description: t('products.home.item10.desc')
         },
         {
@@ -585,7 +585,7 @@ const ProductShowcase = () => {
             title: t('products.home.item11.title'),
             categoryId: 'home',
             categoryLabel: t('products.cat.home'),
-            image: '/images/products/dolphin_ornament.jpg',
+            image: 'images/products/dolphin_ornament.jpg',
             description: t('products.home.item11.desc')
         },
         {
@@ -593,7 +593,7 @@ const ProductShowcase = () => {
             title: t('products.home.item12.title'),
             categoryId: 'home',
             categoryLabel: t('products.cat.home'),
-            image: '/images/products/dome_mosquito_net.jpg',
+            image: 'images/products/dome_mosquito_net.jpg',
             description: t('products.home.item12.desc')
         },
         {
@@ -601,7 +601,7 @@ const ProductShowcase = () => {
             title: t('products.home.item13.title'),
             categoryId: 'home',
             categoryLabel: t('products.cat.home'),
-            image: '/images/products/vase_dried_flowers.jpg',
+            image: 'images/products/vase_dried_flowers.jpg',
             description: t('products.home.item13.desc')
         },
         {
@@ -609,7 +609,7 @@ const ProductShowcase = () => {
             title: t('products.home.item14.title'),
             categoryId: 'furniture',
             categoryLabel: t('products.cat.furniture'),
-            image: '/images/products/small_round_table.jpg',
+            image: 'images/products/small_round_table.jpg',
             description: t('products.home.item14.desc')
         },
         {
@@ -617,7 +617,7 @@ const ProductShowcase = () => {
             title: t('products.home.item15.title'),
             categoryId: 'home',
             categoryLabel: t('products.cat.home'),
-            image: '/images/products/office_ornament_yoga_girl.jpg',
+            image: 'images/products/office_ornament_yoga_girl.jpg',
             description: t('products.home.item15.desc')
         },
         // Hardware category
@@ -626,7 +626,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item1.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/plastic_expansion_bolt.jpg',
+            image: 'images/products/plastic_expansion_bolt.jpg',
             description: t('products.hardware.item1.desc')
         },
         {
@@ -634,7 +634,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item2.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/expansion_bolt.jpg',
+            image: 'images/products/expansion_bolt.jpg',
             description: t('products.hardware.item2.desc')
         },
         {
@@ -642,7 +642,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item3.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/stainless_steel_clip.jpg',
+            image: 'images/products/stainless_steel_clip.jpg',
             description: t('products.hardware.item3.desc')
         },
         {
@@ -650,7 +650,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item4.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/3m_sticker.jpg',
+            image: 'images/products/3m_sticker.jpg',
             description: t('products.hardware.item4.desc')
         },
         {
@@ -658,7 +658,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item5.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/multicolor_angle_steel.jpg',
+            image: 'images/products/multicolor_angle_steel.jpg',
             description: t('products.hardware.item5.desc')
         },
         {
@@ -666,7 +666,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item6.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/black_spiral_with_nut.jpg',
+            image: 'images/products/black_spiral_with_nut.jpg',
             description: t('products.hardware.item6.desc')
         },
         {
@@ -674,7 +674,7 @@ const ProductShowcase = () => {
             title: t('products.hardware.item7.title'),
             categoryId: 'hardware',
             categoryLabel: t('products.cat.hardware'),
-            image: '/images/products/tool_mounting_board.jpg',
+            image: 'images/products/tool_mounting_board.jpg',
             description: t('products.hardware.item7.desc')
         }
     ];

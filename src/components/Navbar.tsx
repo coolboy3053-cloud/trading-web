@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className={styles.container}>
                 <div className={styles.logo} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     <img
-                        src={language === 'zh' ? '/logo_zh.png' : '/logo_en.png'}
+                        src={language === 'zh' ? 'logo_zh.png' : 'logo_en.png'}
                         alt="Baisheng Logo"
                         className={styles.logoImg}
                     />
