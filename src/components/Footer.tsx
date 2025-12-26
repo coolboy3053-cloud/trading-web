@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className={styles.brand}>
                         <div className={styles.logo}>
                             <img
-                                src={language === 'zh' ? '/logo_zh.png' : '/logo_en.png'}
+                                src={language === 'zh' ? 'logo_zh.png' : 'logo_en.png'}
                                 alt="Baisheng Logo"
                                 className={styles.logoImg}
                             />
