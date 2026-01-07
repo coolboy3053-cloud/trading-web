@@ -30,7 +30,7 @@ const translations: Translations = {
         'footer.links': '快捷链接',
         'footer.contact': '联系我们',
         'footer.address': '东莞市石龙镇东江大道石龙段西80号533室',
-        'footer.copyright': '© 2025 东莞市柏盛贸易有限公司 (Dongguan Baisheng Trading). All rights reserved.',
+        'footer.copyright': '© 2026 东莞市柏盛贸易有限公司 (Dongguan Baisheng Trading). All rights reserved.',
 
         // 业务领域
         'services.title': '业务领域',
@@ -106,7 +106,7 @@ const translations: Translations = {
         'footer.links': 'Quick Links',
         'footer.contact': 'Contact Us',
         'footer.address': 'Room 533, No. 80 West, Shilong Section, Dongjiang Avenue, Shilong Town, Dongguan City',
-        'footer.copyright': '© 2025 Dongguan Baisheng Trading Co., Ltd. All rights reserved.',
+        'footer.copyright': '© 2026 Dongguan Baisheng Trading Co., Ltd. All rights reserved.',
 
         // Services
         'services.title': 'Our Services',
@@ -123,7 +123,7 @@ const translations: Translations = {
         'services.item5.desc': 'Providing comprehensive after-sales warranty and technical support to resolve customer concerns.',
 
         // Products - UI only
-        'products.title': 'Product Showcase',
+        'products.title': 'Products',
 
         // Product Categories
         'products.cat.all': 'All',
