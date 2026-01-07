@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Global Trading - Interactive Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .chart-container { position: relative; width: 100%; max-width: 800px; margin: 0 auto; height: 300px; max-height: 400px; }
+        @media (min-width: 768px) { .chart-container { height: 400px; } }
+        .fade-in { animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .nav-active { border-bottom: 2px solid #0f172a; color: #0f172a; font-weight: 600; }
+    </style>
+    <!-- Chosen Palette: Slate & Blue (Professional, Trustworthy, Global Trade) -->
+    <!-- Application Structure Plan: A dashboard-style SPA tailored for B2B buyers. 
+         1. Hero Section: Immediate value proposition and key metrics summary.
+         2. Interactive Tabs:
+            - 'Market Intelligence': Visualizing export reach and growth (Chart.js) to prove reliability.
+            - 'Product Portfolio': Filterable grid to quickly find sourcing needs.
+            - 'Logistics & Process': Interactive timeline showing shipping efficiency.
+         3. Inquiry/Action: Always visible call to action. 
+         Why: B2B buyers need to verify credibility (Data) and find products (Portfolio) quickly. -->
+    <!-- Visualization & Content Choices:
+         - Export Growth -> Goal: Inform/Trust -> Line Chart -> Interaction: Hover for values -> Chart.js.
+         - Market Distribution -> Goal: Inform/Reach -> Doughnut Chart -> Interaction: Toggle regions -> Chart.js.
+         - Product Catalog -> Goal: Organize -> Grid with JS Filter -> Interaction: Click category to filter -> HTML/JS.
+         - Shipping Process -> Goal: Change/Flow -> Step Progress Bar -> Interaction: Click step to see details -> HTML/JS.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+</head>
+<body class="text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center gap-2">
+                        <div class="w-8 h-8 bg-slate-900 rounded-sm flex items-center justify-center text-white font-bold text-xl">A</div>
+                        <span class="font-bold text-xl tracking-tight text-slate-900">APEX GLOBAL</span>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8" id="desktop-nav">
+                    <button onclick="navigateTo('dashboard')" class="nav-btn nav-active inline-flex items-center px-1 pt-1 text-sm font-medium text-slate-500 hover:text-slate-700" data-target="dashboard">Dashboard</button>
+                    <button onclick="navigateTo('products')" class="nav-btn inline-flex items-center px-1 pt-1 text-sm font-medium text-slate-500 hover:text-slate-700" data-target="products">Products</button>
+                    <button onclick="navigateTo('logistics')" class="nav-btn inline-flex items-center px-1 pt-1 text-sm font-medium text-slate-500 hover:text-slate-700" data-target="logistics">Logistics</button>
+                </div>
+                <div class="flex items-center">
+                    <button onclick="toggleModal('contact-modal')" class="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">Inquire Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Placeholder (Simplified) -->
+        <div class="sm:hidden flex justify-around border-t border-slate-200 py-2 bg-slate-50">
+             <button onclick="navigateTo('dashboard')" class="text-xs font-medium text-slate-600">Home</button>
+             <button onclick="navigateTo('products')" class="text-xs font-medium text-slate-600">Products</button>
+             <button onclick="navigateTo('logistics')" class="text-xs font-medium text-slate-600">Logistics</button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- SECTION: DASHBOARD (Market Intelligence) -->
+        <section id="dashboard" class="fade-in space-y-8">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <h1 class="text-3xl font-bold text-slate-900 sm:text-4xl">Connecting Global Markets</h1>
+                <p class="mt-4 text-lg text-slate-600">
+                    Welcome to the Apex Global Trading digital hub. This dashboard provides transparency into our operational scale, export growth, and global reach, demonstrating why we are the preferred partner for 500+ clients worldwide.
+                </p>
+            </div>
+
+            <!-- Key Metrics Grid -->
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-3 mb-8">
+                <div class="bg-white overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6 border-l-4 border-blue-500">
+                    <dt class="text-sm font-medium text-slate-500 truncate">Annual Export Volume</dt>
+                    <dd class="mt-1 text-3xl font-semibold text-slate-900">45,000+ <span class="text-sm text-slate-400 font-normal">TEUs</span></dd>
+                </div>
+                <div class="bg-white overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6 border-l-4 border-emerald-500">
+                    <dt class="text-sm font-medium text-slate-500 truncate">On-Time Delivery Rate</dt>
+                    <dd class="mt-1 text-3xl font-semibold text-slate-900">98.4% <span class="text-sm text-emerald-600 font-normal">↑ 1.2%</span></dd>
+                </div>
+                <div class="bg-white overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6 border-l-4 border-indigo-500">
+                    <dt class="text-sm font-medium text-slate-500 truncate">Active Markets</dt>
+                    <dd class="mt-1 text-3xl font-semibold text-slate-900">32 <span class="text-sm text-slate-400 font-normal">Countries</span></dd>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Chart 1: Export Growth -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
+                    <h2 class="text-lg font-semibold text-slate-800 mb-2">5-Year Export Growth Trends</h2>
+                    <p class="text-sm text-slate-500 mb-6">Consistent growth in shipping volume reflects our expanding supply chain reliability.</p>
+                    <div class="chart-container">
+                        <canvas id="growthChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Chart 2: Regional Distribution -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
+                    <h2 class="text-lg font-semibold text-slate-800 mb-2">Global Market Distribution</h2>
+                    <p class="text-sm text-slate-500 mb-6">Our diversified market presence minimizes geopolitical risk for buyers.</p>
+                    <div class="chart-container">
+                        <canvas id="marketChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: PRODUCTS (Interactive Catalog) -->
+        <section id="products" class="hidden fade-in space-y-6">
+            <div class="border-b border-slate-200 pb-5">
+                <h2 class="text-2xl font-bold leading-7 text-slate-900 sm:truncate sm:text-3xl sm:tracking-tight">Product Portfolio</h2>
+                <p class="mt-2 max-w-4xl text-sm text-slate-500">Explore our core categories. We specialize in high-demand consumer electronics, sustainable textiles, and precision machinery parts. Use the filters below to narrow your search.</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="flex flex-wrap gap-2 mb-6">
+                <button onclick="filterProducts('all')" class="filter-btn bg-slate-800 text-white px-4 py-2 rounded-full text-sm font-medium transition shadow-sm hover:shadow-md active-filter" data-filter="all">All Categories</button>
+                <button onclick="filterProducts('electronics')" class="filter-btn bg-white text-slate-600 border border-slate-300 px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-50 transition" data-filter="electronics">Electronics</button>
+                <button onclick="filterProducts('textiles')" class="filter-btn bg-white text-slate-600 border border-slate-300 px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-50 transition" data-filter="textiles">Textiles</button>
+                <button onclick="filterProducts('machinery')" class="filter-btn bg-white text-slate-600 border border-slate-300 px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-50 transition" data-filter="machinery">Machinery</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- JS will populate this -->
+            </div>
+        </section>
+
+        <!-- SECTION: LOGISTICS (Process Flow) -->
+        <section id="logistics" class="hidden fade-in space-y-8">
+            <div class="bg-indigo-50 rounded-xl p-8 mb-8">
+                <h2 class="text-2xl font-bold text-indigo-900 mb-4">Streamlined Logistics Framework</h2>
+                <p class="text-indigo-700 max-w-3xl">Understanding the timeline is crucial for your inventory planning. Explore our standardized 4-stage export protocol designed to reduce lead times by 20% compared to industry averages.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <!-- Process Steps -->
+                <div class="md:col-span-4 space-y-4">
+                    <div onclick="setStep(0)" class="step-card cursor-pointer bg-white p-4 rounded-lg shadow-sm border-l-4 border-slate-300 hover:border-blue-500 transition-all" id="step-0">
+                        <h3 class="font-bold text-slate-800">1. Order Confirmation</h3>
+                        <p class="text-xs text-slate-500 mt-1">Days 1-2</p>
+                    </div>
+                    <div onclick="setStep(1)" class="step-card cursor-pointer bg-white p-4 rounded-lg shadow-sm border-l-4 border-slate-300 hover:border-blue-500 transition-all" id="step-1">
+                        <h3 class="font-bold text-slate-800">2. Production & QC</h3>
+                        <p class="text-xs text-slate-500 mt-1">Days 3-15</p>
+                    </div>
+                    <div onclick="setStep(2)" class="step-card cursor-pointer bg-white p-4 rounded-lg shadow-sm border-l-4 border-slate-300 hover:border-blue-500 transition-all" id="step-2">
+                        <h3 class="font-bold text-slate-800">3. Customs & Loading</h3>
+                        <p class="text-xs text-slate-500 mt-1">Days 16-18</p>
+                    </div>
+                    <div onclick="setStep(3)" class="step-card cursor-pointer bg-white p-4 rounded-lg shadow-sm border-l-4 border-slate-300 hover:border-blue-500 transition-all" id="step-3">
+                        <h3 class="font-bold text-slate-800">4. Shipping & Docs</h3>
+                        <p class="text-xs text-slate-500 mt-1">Day 19+</p>
+                    </div>
+                </div>
+
+                <!-- Step Detail View -->
+                <div class="md:col-span-8 bg-white rounded-xl shadow-lg border border-slate-100 p-8 flex flex-col justify-center min-h-[300px]">
+                    <div id="step-content">
+                        <!-- Content populated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-300 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Apex Global Trading</h3>
+                <p class="text-sm text-slate-400">Your trusted partner in international commerce. Delivering quality, ensuring compliance, and building bridges across oceans.</p>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Contact</h3>
+                <p class="text-sm text-slate-400">123 Trade Zone Blvd, Shanghai</p>
+                <p class="text-sm text-slate-400">Email: export@apexglobal.example</p>
+                <p class="text-sm text-slate-400">Tel: +86 21 5555 0199</p>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Certifications</h3>
+                <div class="flex gap-4">
+                    <span class="px-2 py-1 bg-slate-800 text-xs rounded border border-slate-700">ISO 9001</span>
+                    <span class="px-2 py-1 bg-slate-800 text-xs rounded border border-slate-700">CE Certified</span>
+                    <span class="px-2 py-1 bg-slate-800 text-xs rounded border border-slate-700">RoHS</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inquiry Modal -->
+    <div id="contact-modal" class="hidden fixed inset-0 bg-slate-900 bg-opacity-50 z-50 flex items-center justify-center backdrop-blur-sm p-4">
+        <div class="bg-white rounded-xl shadow-2xl max-w-md w-full p-6 relative">
+            <button onclick="toggleModal('contact-modal')" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">✕</button>
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Request a Quote</h3>
+            <p class="text-sm text-slate-500 mb-4">Tell us about your sourcing needs. We typically reply within 4 business hours.</p>
+            <form class="space-y-4" onsubmit="event.preventDefault(); alert('Demo: Inquiry sent!'); toggleModal('contact-modal');">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Company Name</label>
+                    <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 bg-slate-50 border p-2" placeholder="Your Company Ltd.">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Email</label>
+                    <input type="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 bg-slate-50 border p-2" placeholder="buyer@example.com">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700">Interested Products</label>
+                    <textarea class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 bg-slate-50 border p-2" rows="3"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // --- DATA STORAGE ---
+        // Simulating data from a source report
+        const products = [
+            { id: 1, name: "Smart Home Sensor Hub", cat: "electronics", desc: "Zigbee/WiFi integrated, 500m range.", moq: "500 Units", price: "$12.50" },
+            { id: 2, name: "Organic Cotton Sheets", cat: "textiles", desc: "GOTS certified, 400 thread count, customizable dye.", moq: "200 Sets", price: "$18.00" },
+            { id: 3, name: "CNC Precision Gear", cat: "machinery", desc: "Steel alloy, +/- 0.01mm tolerance, automotive grade.", moq: "1000 Pcs", price: "$4.20" },
+            { id: 4, name: "Noise Cancelling Headphones", cat: "electronics", desc: "Active noise cancellation, 30hr battery.", moq: "100 Units", price: "$45.00" },
+            { id: 5, name: "Recycled Poly Fabric", cat: "textiles", desc: "Made from ocean plastics, high durability.", moq: "1000 Yards", price: "$3.50/yd" },
+            { id: 6, name: "Hydraulic Pump Unit", cat: "machinery", desc: "High pressure industrial pump, 5yr warranty.", moq: "10 Units", price: "$350.00" }
+        ];
+
+        const logisticsSteps = [
+            { title: "Order Confirmation", detail: "We review your PO, confirm specifications with our engineering team, and issue a Proforma Invoice within 24 hours. A dedicated account manager is assigned to your order.", icon: "📝" },
+            { title: "Production & QC", detail: "Raw materials are sourced and tested. Production begins on our automated lines. QC inspections occur at 30%, 70%, and 100% completion. You receive daily photo/video updates.", icon: "⚙️" },
+            { title: "Customs & Loading", detail: "Goods are professionally packed (palletized/crated). We handle all export declarations, certificates of origin, and phytosanitary docs. Container loading is video monitored.", icon: "📦" },
+            { title: "Shipping & Documentation", detail: "Container is sealed and trucked to the port. Bill of Lading (B/L) and final commercial documents are sent digitally immediately upon departure. Real-time tracking link provided.", icon: "🚢" }
+        ];
+
+        // --- STATE MANAGEMENT ---
+        let currentTab = 'dashboard';
+        let currentFilter = 'all';
+
+        // --- NAVIGATION LOGIC ---
+        function navigateTo(targetId) {
+            // Update State
+            currentTab = targetId;
+
+            // Update UI: Hide all sections, show target
+            document.querySelectorAll('main > section').forEach(sec => sec.classList.add('hidden'));
+            document.getElementById(targetId).classList.remove('hidden');
+
+            // Update UI: Nav buttons
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                if (btn.dataset.target === targetId) {
+                    btn.classList.add('nav-active', 'text-slate-900');
+                    btn.classList.remove('text-slate-500');
+                } else {
+                    btn.classList.remove('nav-active', 'text-slate-900');
+                    btn.classList.add('text-slate-500');
+                }
+            });
+
+            // Trigger animations or updates based on tab
+            if (targetId === 'products') renderProducts();
+        }
+
+        function toggleModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.toggle('hidden');
+        }
+
+        // --- PRODUCT LOGIC ---
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = '';
+            
+            const filtered = currentFilter === 'all' 
+                ? products 
+                : products.filter(p => p.cat === currentFilter);
+
+            filtered.forEach(p => {
+                const card = document.createElement('div');
+                card.className = "bg-white rounded-lg shadow-sm hover:shadow-md transition border border-slate-100 overflow-hidden flex flex-col";
+                card.innerHTML = `
+                    <div class="h-32 bg-slate-100 flex items-center justify-center text-4xl text-slate-300 font-bold">
+                        ${p.name.charAt(0)}
+                    </div>
+                    <div class="p-4 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-bold text-slate-800">${p.name}</h3>
+                            <span class="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded-full capitalize">${p.cat}</span>
+                        </div>
+                        <p class="text-sm text-slate-500 mt-2 flex-grow">${p.desc}</p>
+                        <div class="mt-4 pt-4 border-t border-slate-50 flex justify-between items-center">
+                            <div class="text-xs text-slate-400">MOQ: ${p.moq}</div>
+                            <div class="font-semibold text-slate-700">${p.price}</div>
+                        </div>
+                        <button onclick="toggleModal('contact-modal')" class="mt-3 w-full border border-blue-600 text-blue-600 hover:bg-blue-50 text-sm font-medium py-1.5 rounded transition">Inquire</button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterProducts(category) {
+            currentFilter = category;
+            
+            // Update Buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.dataset.filter === category) {
+                    btn.classList.remove('bg-white', 'text-slate-600', 'border-slate-300');
+                    btn.classList.add('bg-slate-800', 'text-white');
+                } else {
+                    btn.classList.add('bg-white', 'text-slate-600', 'border-slate-300');
+                    btn.classList.remove('bg-slate-800', 'text-white');
+                }
+            });
+
+            renderProducts();
+        }
+
+        // --- LOGISTICS LOGIC ---
+        function setStep(index) {
+            // Visual Update for List
+            document.querySelectorAll('.step-card').forEach((card, idx) => {
+                if (idx === index) {
+                    card.classList.add('border-blue-500', 'bg-blue-50');
+                    card.classList.remove('border-slate-300', 'bg-white');
+                } else {
+                    card.classList.remove('border-blue-500', 'bg-blue-50');
+                    card.classList.add('border-slate-300', 'bg-white');
+                }
+            });
+
+            // Update Content
+            const contentDiv = document.getElementById('step-content');
+            const step = logisticsSteps[index];
+            contentDiv.innerHTML = `
+                <div class="text-center fade-in">
+                    <div class="text-6xl mb-4">${step.icon}</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">${step.title}</h3>
+                    <p class="text-lg text-slate-600 leading-relaxed">${step.detail}</p>
+                </div>
+            `;
+        }
+
+        // --- INITIALIZATION & CHARTS ---
+        window.onload = function() {
+            // Init Default Views
+            renderProducts();
+            setStep(0);
+
+            // Chart 1: Export Growth (Line)
+            const ctxGrowth = document.getElementById('growthChart').getContext('2d');
+            new Chart(ctxGrowth, {
+                type: 'line',
+                data: {
+                    labels: ['2020', '2021', '2022', '2023', '2024'],
+                    datasets: [{
+                        label: 'Export Volume (Million USD)',
+                        data: [12.5, 15.2, 18.8, 22.4, 28.5],
+                        borderColor: '#2563eb', // Blue-600
+                        backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.3,
+                        fill: true,
+                        pointBackgroundColor: '#ffffff',
+                        pointBorderColor: '#2563eb',
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: '#1e293b',
+                            padding: 12,
+                            titleFont: { size: 14 },
+                            bodyFont: { size: 14 }
+                        }
+                    },
+                    scales: {
+                        y: { 
+                            beginAtZero: false, 
+                            grid: { borderDash: [2, 4], color: '#e2e8f0' } 
+                        },
+                        x: { 
+                            grid: { display: false } 
+                        }
+                    }
+                }
+            });
+
+            // Chart 2: Market Distribution (Doughnut)
+            const ctxMarket = document.getElementById('marketChart').getContext('2d');
+            new Chart(ctxMarket, {
+                type: 'doughnut',
+                data: {
+                    labels: ['North America', 'Europe', 'Southeast Asia', 'Middle East', 'Others'],
+                    datasets: [{
+                        data: [40, 30, 15, 10, 5],
+                        backgroundColor: [
+                            '#0f172a', // Slate-900
+                            '#334155', // Slate-700
+                            '#64748b', // Slate-500
+                            '#94a3b8', // Slate-400
+                            '#cbd5e1'  // Slate-300
+                        ],
+                        borderWidth: 0,
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { 
+                            position: 'bottom',
+                            labels: { usePointStyle: true, padding: 20 }
+                        }
+                    },
+                    cutout: '70%'
+                }
+            });
+        };
+    </script>
+</body>
+</html>
