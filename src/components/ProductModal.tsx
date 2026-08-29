@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
-import { X, MessageSquare, Phone, CheckCircle } from 'lucide-react';
+import { X, MessageSquare, Phone, CheckCircle, Share2, Check } from 'lucide-react';
 import styles from './ProductModal.module.css';
 import { useI18n } from '../context/I18nContext';
 import ImageCarousel from './ImageCarousel';
@@ -17,22 +17,72 @@ interface ProductModalProps {
 
 const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
     const { t, language: currentLang } = useI18n();
+    const modalRef = useRef<HTMLDivElement>(null);
+    const [copied, setCopied] = useState(false);
+
+    useEffect(() => {
+        setCopied(false);
+    }, [product?.id]);
 
     useEffect(() => {
         if (product) {
+            const previouslyFocused = document.activeElement as HTMLElement | null;
             document.body.style.overflow = 'hidden';
+            modalRef.current?.focus();
+
+            const handleKeyDown = (event: KeyboardEvent) => {
+                if (event.key === 'Escape') onClose();
+            };
+            document.addEventListener('keydown', handleKeyDown);
+
+            return () => {
+                document.body.style.overflow = 'unset';
+                document.removeEventListener('keydown', handleKeyDown);
+                previouslyFocused?.focus();
+            };
         } else {
             document.body.style.overflow = 'unset';
         }
         return () => {
             document.body.style.overflow = 'unset';
         };
-    }, [product]);
+    }, [product, onClose]);
 
     if (!product) return null;
 
     // 获取产品图片数组（兼容旧格式）
     const productImages = product.images || (product.image ? [product.image] : []);
+    const titleId = `product-title-${product.id}`;
+    const inquiryHref = `mailto:sales@baishengtrading.com?subject=${encodeURIComponent(`${t('modal.inquirySubject')}: ${product.title[currentLang]}`)}`;
+
+    const handleShare = async () => {
+        const shareData = {
+            title: product.title[currentLang],
+            text: (product.shortDesc || product.description)[currentLang],
+            url: window.location.href
+        };
+
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+                return;
+            }
+            await navigator.clipboard.writeText(shareData.url);
+        } catch (error) {
+            if (error instanceof DOMException && error.name === 'AbortError') return;
+            const input = document.createElement('textarea');
+            input.value = shareData.url;
+            input.style.position = 'fixed';
+            input.style.opacity = '0';
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            input.remove();
+        }
+
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 2000);
+    };
 
     // 获取当前语言的原始描述
     const rawDetailDesc = (product.detailDesc || product.description)[currentLang];
@@ -78,8 +128,16 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
 
     return ReactDOM.createPortal(
         <div className={styles.overlay} onClick={onClose}>
-            <div className={styles.modal} onClick={e => e.stopPropagation()}>
-                <button className={styles.closeBtn} onClick={onClose}>
+            <div
+                className={styles.modal}
+                onClick={e => e.stopPropagation()}
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={titleId}
+                tabIndex={-1}
+                ref={modalRef}
+            >
+                <button className={styles.closeBtn} onClick={onClose} aria-label={t('modal.close')}>
                     <X size={24} />
                 </button>
 
@@ -96,7 +154,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
                     <div className={styles.infoSection}>
                         <div className={styles.header}>
                             <span className={styles.badge}>{product.categoryLabel}</span>
-                            <h2 className={styles.title}>{product.title[currentLang]}</h2>
+                            <h2 className={styles.title} id={titleId}>{product.title[currentLang]}</h2>
                         </div>
 
                         {/* Only show description if there is remaining text */}
@@ -125,10 +183,16 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
                         )}
 
                         <div className={styles.actions}>
-                            <button className={`${styles.actionBtn} ${styles.primary}`}>
-                                <MessageSquare size={18} />
-                                <span>{t('modal.inquire')}</span>
-                            </button>
+                            <div className={styles.actionButtons}>
+                                <a href={inquiryHref} className={`${styles.actionBtn} ${styles.primary}`}>
+                                    <MessageSquare size={18} />
+                                    <span>{t('modal.inquire')}</span>
+                                </a>
+                                <button type="button" className={`${styles.actionBtn} ${styles.secondary}`} onClick={handleShare}>
+                                    {copied ? <Check size={18} /> : <Share2 size={18} />}
+                                    <span>{copied ? t('modal.copied') : t('modal.share')}</span>
+                                </button>
+                            </div>
                             <div className={styles.contactHint}>
                                 <Phone size={14} /> <span>Sales: 0769-86291786</span>
                             </div>

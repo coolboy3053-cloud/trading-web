@@ -16,6 +16,18 @@ const translations: Translations = {
         'nav.products': '产品展示',
         'nav.about': '关于我们',
         'nav.contact': '联系我们',
+        'nav.backToTop': '返回网站顶部',
+        'nav.switchLanguage': '切换为英文',
+        'nav.openMenu': '打开导航菜单',
+        'nav.closeMenu': '关闭导航菜单',
+
+        // 浮动联系入口
+        'widgets.wechat': '微信咨询',
+        'widgets.phone': '电话联系',
+        'widgets.backToTop': '返回顶部',
+        'widgets.closeQr': '关闭微信二维码',
+        'widgets.qrAlt': '柏盛贸易微信二维码',
+        'widgets.qrHint': '扫码咨询官方客服',
 
         // Hero区域
         'hero.badge': '东莞市柏盛贸易有限公司',
@@ -30,7 +42,7 @@ const translations: Translations = {
         'footer.links': '快捷链接',
         'footer.contact': '联系我们',
         'footer.address': '东莞市石龙镇东江大道石龙段西80号533室',
-        'footer.copyright': '© 2026 东莞市柏盛贸易有限公司 (Dongguan Baisheng Trading). All rights reserved.',
+        'footer.copyrightOwner': '东莞市柏盛贸易有限公司 (Dongguan Baisheng Trading)',
 
         // 业务领域
         'services.title': '业务领域',
@@ -48,6 +60,14 @@ const translations: Translations = {
 
         // 产品展示 - 仅保留UI相关翻译
         'products.title': '产品展示',
+        'products.searchLabel': '搜索产品',
+        'products.searchPlaceholder': '搜索产品名称或描述',
+        'products.showing': '当前显示',
+        'products.loadMore': '加载更多产品',
+        'products.noResults': '没有找到匹配的产品',
+        'products.loading': '正在加载产品数据...',
+        'products.loadError': '无法加载产品数据，请刷新页面重试。',
+        'products.retry': '刷新页面',
 
         // 产品分类
         'products.cat.all': '全部',
@@ -71,10 +91,16 @@ const translations: Translations = {
         'modal.longDescPlaceholder': '此产品采用高品质原材料精心制造，经过严格的质量检测，确保耐用性和安全性。我们提供多种规格和定制选项，以满足您的不同需求。欢迎联系我们获取详细报价和样品。',
         'modal.specsTitle': '产品规格',
         'modal.inquire': '立即咨询',
+        'modal.close': '关闭产品详情',
+        'modal.inquirySubject': '产品询价',
+        'modal.share': '分享产品',
+        'modal.copied': '链接已复制',
 
         // 关于我们
         'about.pretitle': '关于我们',
         'about.title': '东莞市柏盛贸易有限公司',
+        'about.experience': '立足行业，服务全球',
+        'about.imageAlt': '柏盛贸易办公环境',
         'about.stat1': '优质供应商',
         'about.stat2': '服务国家',
         'about.stat3': '客户满意度',
@@ -92,6 +118,18 @@ const translations: Translations = {
         'nav.products': 'Products',
         'nav.about': 'About Us',
         'nav.contact': 'Contact Us',
+        'nav.backToTop': 'Back to top',
+        'nav.switchLanguage': 'Switch to Chinese',
+        'nav.openMenu': 'Open navigation menu',
+        'nav.closeMenu': 'Close navigation menu',
+
+        // Floating contact widgets
+        'widgets.wechat': 'WeChat',
+        'widgets.phone': 'Call us',
+        'widgets.backToTop': 'Back to top',
+        'widgets.closeQr': 'Close WeChat QR code',
+        'widgets.qrAlt': 'Baisheng Trading WeChat QR code',
+        'widgets.qrHint': 'Scan to contact our customer service team',
 
         // Hero
         'hero.badge': 'Dongguan Baisheng Trading Co., Ltd.',
@@ -106,7 +144,7 @@ const translations: Translations = {
         'footer.links': 'Quick Links',
         'footer.contact': 'Contact Us',
         'footer.address': 'Room 533, No. 80 West, Shilong Section, Dongjiang Avenue, Shilong Town, Dongguan City',
-        'footer.copyright': '© 2026 Dongguan Baisheng Trading Co., Ltd. All rights reserved.',
+        'footer.copyrightOwner': 'Dongguan Baisheng Trading Co., Ltd.',
 
         // Services
         'services.title': 'Our Services',
@@ -124,6 +162,14 @@ const translations: Translations = {
 
         // Products - UI only
         'products.title': 'Products',
+        'products.searchLabel': 'Search products',
+        'products.searchPlaceholder': 'Search by product name or description',
+        'products.showing': 'Showing',
+        'products.loadMore': 'Load more products',
+        'products.noResults': 'No matching products found',
+        'products.loading': 'Loading products...',
+        'products.loadError': 'Unable to load products. Please refresh and try again.',
+        'products.retry': 'Refresh page',
 
         // Product Categories
         'products.cat.all': 'All',
@@ -147,10 +193,16 @@ const translations: Translations = {
         'modal.longDescPlaceholder': 'Expertly crafted using high-quality materials and rigorous quality control to ensure durability and safety. Available in various specifications and customization options to meet your specific needs. Contact us for detailed quotes and samples.',
         'modal.specsTitle': 'Specifications',
         'modal.inquire': 'Inquire Now',
+        'modal.close': 'Close product details',
+        'modal.inquirySubject': 'Product inquiry',
+        'modal.share': 'Share product',
+        'modal.copied': 'Link copied',
 
         // About
         'about.pretitle': 'ABOUT US',
         'about.title': 'Dongguan Baisheng Trading Co., Ltd.',
+        'about.experience': 'Industry Expertise, Global Service',
+        'about.imageAlt': 'Baisheng Trading office',
         'about.stat1': 'Suppliers',
         'about.stat2': 'Countries',
         'about.stat3': 'Satisfaction',

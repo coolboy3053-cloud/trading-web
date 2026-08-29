@@ -1,6 +1,6 @@
 {
-  "version": "1.1.2-batch",
-  "lastUpdate": "2026-01-07 09:57:12",
+  "version": "1.1.3-batch",
+  "lastUpdate": "2026-08-29 22:38:47",
   "products": [
     {
       "id": 16187,
@@ -28,7 +28,7 @@
         "zh": "品牌: other/其他\n适用年龄: 2-8岁（47-53厘米）\n帽围: 可调节\n适用性别: 中性\n适用季节：夏季\n商品毛重：300.00g"
       },
       "specs": [],
-      "thumbnail": "images/products/16187/1.jpg"
+      "thumbnail": "images/thumbnails/16187.jpg"
     },
     {
       "id": 2804947,
@@ -59,7 +59,7 @@
         "zh": "材质：ABS+PC材质\n\n开盖方式：铝框\n\n滚轮样式：万向轮\n\n里料：涤纶\n\n颜色：梦幻黑，银色，酒红，深灰色，孔雀蓝，绿色，白色\n\n尺寸：20寸,22寸，24寸,26寸\n\n是否有扩展层：否"
       },
       "specs": [],
-      "thumbnail": "images/products/2804947/1.jpg"
+      "thumbnail": "images/thumbnails/2804947.jpg"
     },
     {
       "id": 2805047,
@@ -90,7 +90,7 @@
         "zh": "材质：ABS+PC材质\n\n功能：USB接口，杯架，手机架\n滚轮样式：万向轮\n里料：涤纶\n颜色：蓝色，黄色，白色，浅蓝，绿色，黑色，深灰\n尺寸：20/22/24/26/28寸\n是否有扩展层：否\n\n流行元素：马卡龙色"
       },
       "specs": [],
-      "thumbnail": "images/products/2805047/1.jpg"
+      "thumbnail": "images/thumbnails/2805047.jpg"
     },
     {
       "id": 2805094,
@@ -121,7 +121,7 @@
         "zh": "材质：ABS+PC材质\n\n里料：涤棉\n\n开盖方式：锁扣\n滚轮样式：万向轮\n颜色：黑色，橙色，白色，蓝色，黄色\n尺寸：20/22/24/26/28/30寸\n是否有扩展层：否"
       },
       "specs": [],
-      "thumbnail": "images/products/2805094/1.jpg"
+      "thumbnail": "images/thumbnails/2805094.jpg"
     },
     {
       "id": 2805166,
@@ -153,7 +153,7 @@
         "zh": "材质：ABS+PC材质\n内里：桃皮绒\n开盖方式：拉链前开盖\n滚轮样式：万向轮\n颜色：黑色，奶茶，枪灰，墨绿，粉色，白色\n\n尺寸：20寸\n是否有扩展层：否\n\n重量：3.6千克"
       },
       "specs": [],
-      "thumbnail": "images/products/2805166/1.jpg"
+      "thumbnail": "images/thumbnails/2805166.jpg"
     },
     {
       "id": 2809977,
@@ -184,7 +184,7 @@
         "zh": "材质：PU压花皮\n\n风格：都市简约\n\n容量：20-35L\n\n容纳电脑尺寸：16英寸\n\n里料：涤纶\n\n背带：气垫背带\n\n颜色：黑色/深灰/黑灰/浅灰"
       },
       "specs": [],
-      "thumbnail": "images/products/2809977/1.jpg"
+      "thumbnail": "images/thumbnails/2809977.jpg"
     },
     {
       "id": 2810404,
@@ -213,7 +213,7 @@
         "zh": "适用性别：男女均可\n\n材质：涤纶\n\n风格：简约潮流\n\n容量：20L以下\n\n容纳电脑尺寸：15.6英寸\n\n里料：涤纶\n\n背带：气垫背带\n\n颜色：黑色/灰色/蓝色"
       },
       "specs": [],
-      "thumbnail": "images/products/2810404/1.jpg"
+      "thumbnail": "images/thumbnails/2810404.jpg"
     },
     {
       "id": 2810464,
@@ -241,7 +241,7 @@
         "zh": "材质： 防水牛津布\n\n风格：欧美复古\n\n里料：帆布\n\n有无夹层：有\n\n尺寸：均码\n\n颜色：黑色/咖啡色"
       },
       "specs": [],
-      "thumbnail": "images/products/2810464/1.jpg"
+      "thumbnail": "images/thumbnails/2810464.jpg"
     },
     {
       "id": 2810595,
@@ -270,7 +270,7 @@
         "zh": "材质：尼龙\n\n风格：时尚简约\n\n容量：20-35L\n\n容纳电脑尺寸：15.6英寸\n\n里料：涤纶\n\n背带：气垫背带\n\n颜色：黄色/蓝色/黑灰/绿色/灰色"
       },
       "specs": [],
-      "thumbnail": "images/products/2810595/1.jpg"
+      "thumbnail": "images/thumbnails/2810595.jpg"
     },
     {
       "id": 391030,
@@ -301,7 +301,7 @@
         "zh": "材质: 瓷\n风格: 中式\n适用人数: 3人\n类型: 其他功夫茶用具\n流行元素: 小新清\n茶具类型: 整套功夫茶具\n配茶盘材质: 否\n是否手工: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/391030/1.jpg"
+      "thumbnail": "images/thumbnails/391030.jpg"
     },
     {
       "id": 391032,
@@ -329,7 +329,7 @@
         "zh": "型号: 12.9级外六角套装m6m8m10\n材质: 合金钢\n颜色分类: 烤黑\n产品强度: 12.9级\n头型: 外六角\n标准类型: 国标"
       },
       "specs": [],
-      "thumbnail": "images/products/391032/1.jpg"
+      "thumbnail": "images/thumbnails/391032.jpg"
     },
     {
       "id": 391034,
@@ -357,7 +357,7 @@
         "zh": "型号: xcs-00058\n材质: 角钢\n货号: xcs-00058\n附加功能: 折叠 拆装 移动 翻转 悬挂 升降 伸缩 储藏 推拉 多功能"
       },
       "specs": [],
-      "thumbnail": "images/products/391034/1.jpg"
+      "thumbnail": "images/thumbnails/391034.jpg"
     },
     {
       "id": 391038,
@@ -384,7 +384,7 @@
         "zh": "品牌: 3M\n货号: 55236\n胶带类型: 不干胶\n颜色分类: 40*50*2MM白色 61*78*1.5MM黑色 量大或定制可联系客服"
       },
       "specs": [],
-      "thumbnail": "images/products/391038/1.jpg"
+      "thumbnail": "images/thumbnails/391038.jpg"
     },
     {
       "id": 391052,
@@ -412,36 +412,7 @@
         "zh": "图案: 其他\n风格: 北欧\n毛重: 70\n沙发骨架: 金属\n填充物: 高弹泡沫海绵\n是否可定制: 是\n包装长度: 2米以上\n附加功能: 折叠\n适用对象: 成人\n是否可拆换: 沙发套可拆换\n家具结构: 框架结构\n是否组装: 组装\n包装体积: 0.8\n款式定位: 品质奢华型\n安装说明详情: 提供安装说明书 提供简单安"
       },
       "specs": [],
-      "thumbnail": "images/products/391052/1.jpg"
-    },
-    {
-      "id": 391075,
-      "categoryId": "daily",
-      "images": [
-        "images/products/391075/1.jpg",
-        "images/products/391075/2.jpg",
-        "images/products/391075/3.jpg",
-        "images/products/391075/4.jpg",
-        "images/products/391075/5.jpg"
-      ],
-      "title": {
-        "en": "pillow",
-        "zh": "抱枕"
-      },
-      "shortDesc": {
-        "en": "Available in each color and size",
-        "zh": "各色各尺寸可选"
-      },
-      "description": {
-        "en": "pillow type: cushion cover/pillow cover\npattern: geometric pattern\ncoat material: other\nfiller: PP cotton\nsize: 45x 45cm without core 45*45 with core 40*60cm with core 40*60CM without core 35*70cm with core 35*70cm without core 50*50 without core 50*50 with core\nstyle: northern Europe\ncolor category: yellow plaid green plaid pear apple",
-        "zh": "抱枕枕靠类型: 靠垫套/抱枕套\n图案: 几何图案\n外套材质: 其他\n填充物: PP棉\n尺寸: 45x45cm不含芯 45*45含芯 40*60cm含芯 40*60CM不含芯 35*70cm含芯 35*70cm不含芯 50*50不含芯 50*50含芯\n风格: 北欧\n颜色分类: 黄色格子 绿色格子 梨树 苹果"
-      },
-      "detailDesc": {
-        "en": "pillow type: cushion cover/pillow cover\npattern: geometric pattern\ncoat material: other\nfiller: PP cotton\nsize: 45x 45cm without core 45*45 with core 40*60cm with core 40*60CM without core 35*70cm with core 35*70cm without core 50*50 without core 50*50 with core\nstyle: northern Europe\ncolor category: yellow plaid green plaid pear apple",
-        "zh": "抱枕枕靠类型: 靠垫套/抱枕套\n图案: 几何图案\n外套材质: 其他\n填充物: PP棉\n尺寸: 45x45cm不含芯 45*45含芯 40*60cm含芯 40*60CM不含芯 35*70cm含芯 35*70cm不含芯 50*50不含芯 50*50含芯\n风格: 北欧\n颜色分类: 黄色格子 绿色格子 梨树 苹果"
-      },
-      "specs": [],
-      "thumbnail": "images/products/391075/1.jpg"
+      "thumbnail": "images/thumbnails/391052.jpg"
     },
     {
       "id": 391091,
@@ -469,7 +440,7 @@
         "zh": "材质: 木\n木质材质: 松木\n图案: 艺术\n风格: 简约现代\n结构工艺: 木质工艺\n木质结构工艺: 旋切\n是否可定制: 否\n附加功能: 拆装\n适用对象: 成人\n家具结构: 支架结构\n是否组装: 组装"
       },
       "specs": [],
-      "thumbnail": "images/products/391091/1.jpg"
+      "thumbnail": "images/thumbnails/391091.jpg"
     },
     {
       "id": 391096,
@@ -496,7 +467,7 @@
         "zh": "材质: 木\n木质材质: 白蜡木\n风格: 简约现代\n安装方式: 整装\n颜色分类: 白蜡木 樱桃木 黑胡桃木 定制其他尺寸\n高度: 600mm以下\n是否可定制: 是\n门数量: 无门\n附加功能: 储藏\n适用对象: 成人\n是否组装: 整装\n包装体积: 高55*宽52*深50cm\n设计元素: 原木\n安装说明详情: 提供简单安装工具"
       },
       "specs": [],
-      "thumbnail": "images/products/391096/1.jpg"
+      "thumbnail": "images/thumbnails/391096.jpg"
     },
     {
       "id": 391097,
@@ -523,7 +494,7 @@
         "zh": "填充物硬度: 硬\n安装说明详情: 无安装说明\n是否组装: 整装\n款式定位: 品质奢华型\n设计元素: 大师设计\n面料饰面工艺: 拉扣\n是否可定制: 否\n是否带储物空间: 否\n沙发组合形式: 其他\n是否可拆洗: 否\n填充物: 海绵\n面料: 麻\n材质: 木\n木质材质: 松木\n结构工艺: 木质工艺\n木质结构工艺: 车床\n风格: 美式乡村\n适用对象: 成人\n颜色分类: 咖啡色 图片米色 烟灰色 深棕色裂纹科技布 深灰色裂纹科技布"
       },
       "specs": [],
-      "thumbnail": "images/products/391097/1.jpg"
+      "thumbnail": "images/thumbnails/391097.jpg"
     },
     {
       "id": 391098,
@@ -551,7 +522,7 @@
         "zh": "被里材质: 棉\n棉种类: 棉\n成分含量: 100%\n图案: 风景\n风格: 北欧风格\n件数: 4件\n适用床尺寸: 1.2m（4英尺）床 1.5m（5英尺）床 1.8m（6英尺）床 2.0m（6.6英尺）床\n产品等级: 合格品\n床品工艺: 其他\n面料支数: 40支\n面料密度: 133x72\n印花工艺: 活性印花\n织造工艺: 斜纹\n款式: 床单式\n被面材质: 棉"
       },
       "specs": [],
-      "thumbnail": "images/products/391098/1.jpg"
+      "thumbnail": "images/thumbnails/391098.jpg"
     },
     {
       "id": 391100,
@@ -578,7 +549,7 @@
         "zh": "适用性别: 女\n图案: 其他\n风格: 其他\n镶嵌材质: 其他\n是否商场同款: 否\n材质: 皮\n颜色分类: 16CM编织皮绳/925银锁扣 17C"
       },
       "specs": [],
-      "thumbnail": "images/products/391100/1.jpg"
+      "thumbnail": "images/thumbnails/391100.jpg"
     },
     {
       "id": 391101,
@@ -605,7 +576,7 @@
         "zh": "材质: 其他/other\n图案: 植物花卉\n风格: 北欧\n地垫适用空间: 浴室\n工艺: 机器织造\n地垫售卖方式: 成品地垫（元/块）\n清洗类型: 可手洗 可机洗 吸尘\n货号: dd1\n适用场景: 家用"
       },
       "specs": [],
-      "thumbnail": "images/products/391101/1.jpg"
+      "thumbnail": "images/thumbnails/391101.jpg"
     },
     {
       "id": 391103,
@@ -633,7 +604,7 @@
         "zh": "颜色分类: 银色 棕色 米色\n脏衣篮种类: 其他"
       },
       "specs": [],
-      "thumbnail": "images/products/391103/1.jpg"
+      "thumbnail": "images/thumbnails/391103.jpg"
     },
     {
       "id": 391105,
@@ -661,7 +632,7 @@
         "zh": "材质: 瓷\n图案: 纯色\n风格: 北欧风格\n形状: 圆形\n尺寸: 8英寸\n流行元素: 小清新\n个数: 1个\n适用对象: 成人\n盘类型: 平盘\n茶餐具工艺: 色釉"
       },
       "specs": [],
-      "thumbnail": "images/products/391105/1.jpg"
+      "thumbnail": "images/thumbnails/391105.jpg"
     },
     {
       "id": 391107,
@@ -688,7 +659,7 @@
         "zh": "面料主材质: 聚酯纤维（涤纶）\n面料俗称: 珊瑚绒面料\n图案: 纯色\n家居服风格: 甜美\n领型: 连帽\n适用性别: 女\n衣门襟: 对襟\n裤门襟: 皮筋\n主面料克重: 380g\n成分含量: 95%以上\n适用季节: 冬季\n袖长: 长袖\n厚薄: 加厚\n适用场景: 休闲家居\n服装款式细节: 毛球装饰\n适用对象: 青年\n裤长: 长裤\n面料材质成分: 聚酯纤维100%\n里料材质成分: 聚酯纤维100%"
       },
       "specs": [],
-      "thumbnail": "images/products/391107/1.jpg"
+      "thumbnail": "images/thumbnails/391107.jpg"
     },
     {
       "id": 391110,
@@ -716,7 +687,7 @@
         "zh": "材质: 陶\n图案: 纯色\n风格: 北欧风格\n尺寸: 8英寸\n个数: 1个\n盘类型: 平盘\n茶餐具工艺: 釉下彩"
       },
       "specs": [],
-      "thumbnail": "images/products/391110/1.png"
+      "thumbnail": "images/thumbnails/391110.jpg"
     },
     {
       "id": 391114,
@@ -744,7 +715,7 @@
         "zh": "材质: 新骨瓷\n图案: 其他\n风格: 北欧风格\n形状: 长方形\n尺寸: 12英寸\n流行元素: 宫廷风\n颜色分类: 黑色字母内扣金边\n毛重: 0.6\n适用对象: 成人\n盘类型: 平盘\n茶餐具工艺: 釉上彩\n是否手工: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/391114/1.jpg"
+      "thumbnail": "images/thumbnails/391114.jpg"
     },
     {
       "id": 391117,
@@ -771,7 +742,7 @@
         "zh": "质地: PU\n材质工艺: 印花\n闭合方式: 其他\n图案: 文字\n风格: 日韩\n形状: 横款\n成色: 全新\n性别: 女\n流行元素: 撞色\n颜色分类: 黑色 蓝色 白色\n内部结构: 拉链暗袋\n里料材质: 合成革\n适用对象: 青年\n折数: 1折\n款式: 其他"
       },
       "specs": [],
-      "thumbnail": "images/products/391117/1.jpg"
+      "thumbnail": "images/thumbnails/391117.jpg"
     },
     {
       "id": 391122,
@@ -799,7 +770,7 @@
         "zh": "材质: 其他/other\n清洗类型: 可手洗 可机洗\n适用场景: 家用\n地垫售卖方式: 成品地垫（元/块）\n地垫适用空间: 其他/other\n图案: 其他/other\n工艺: 机器织造\n风格: 北欧\n尺寸: 140*200CM 170*200CM\n颜色分类: XK-小情侣（防水防潮） XK-黑"
       },
       "specs": [],
-      "thumbnail": "images/products/391122/1.jpg"
+      "thumbnail": "images/thumbnails/391122.jpg"
     },
     {
       "id": 391124,
@@ -826,7 +797,7 @@
         "zh": "尺码: 均码\n图案: 纯色\n风格: 街头\n颜色分类: 藏蓝色\n衣长: 中长款\n款式: 背带\n服装款式细节: 背带"
       },
       "specs": [],
-      "thumbnail": "images/products/391124/1.jpg"
+      "thumbnail": "images/thumbnails/391124.jpg"
     },
     {
       "id": 391126,
@@ -853,7 +824,7 @@
         "zh": "闭合方式: 系带\n尺码: 34 35 36 37 38 39 40 41\n图案: 纯色\n风格: 英伦\n流行元素: 交叉绑带 粗跟\n后跟高: 中跟(3-5cm)\n鞋头款式: 圆头\n适用场景: 日常\n跟底款式: 粗跟\n鞋底材质: TPR(牛筋）\n内里材质: 二层猪皮\n适用对象: 青年（18-40周岁）\n开口深度: 深口\n皮质特征: 修面\n鞋制作工艺: 胶粘鞋\n鞋垫材质: 超纤皮\n款式: 玛丽珍鞋\n帮面材质: 牛二层皮覆膜"
       },
       "specs": [],
-      "thumbnail": "images/products/391126/1.jpg"
+      "thumbnail": "images/thumbnails/391126.jpg"
     },
     {
       "id": 391127,
@@ -880,7 +851,7 @@
         "zh": "性别: 女\n质地: PVC\n提拎部件类型: 软把\n闭合方式: 拉链\n内部结构: 拉链暗袋 手机袋 证件袋\n箱包外袋种类: 立体袋\n流行元素: 印花\n图案: 卡通动漫\n有无夹层: 无\n箱包硬度: 软\n是否可折叠: 否\n适用场景: 休闲\n风格: 日韩\n形状: 竖款方形\n里料材质: 涤纶\n适用对象: 青年\n防水程度: 防泼水\n成色: 全新\n肩带样式: 双根\n箱包尺寸: 150*120*180迷你版\n颜色分类: 绿色迷你号 红色迷你号 黑色迷你号"
       },
       "specs": [],
-      "thumbnail": "images/products/391127/1.jpg"
+      "thumbnail": "images/thumbnails/391127.jpg"
     },
     {
       "id": 391132,
@@ -907,7 +878,7 @@
         "zh": "材质: 其他\n尺码: S M L\n面料: 其他\n图案: 纯色\n风格: 街头\n街头: 欧美\n腰型: 自然腰\n颜色分类: 粉红色 焦糖色\n成分含量: 95%以上\n裙型: 百褶裙\n裙长: 中长裙\n廓形: X型"
       },
       "specs": [],
-      "thumbnail": "images/products/391132/1.jpg"
+      "thumbnail": "images/thumbnails/391132.jpg"
     },
     {
       "id": 391138,
@@ -935,7 +906,7 @@
         "zh": "是否手工: 是\n流行元素: coulorful\n适用空间: 居家\n风格: 北欧风格\n适用季节: 冬季\n鞋码: 36-37 38-39\n适用对象: 女\n毛重: 0.28kg\n颜色分类: 图片款"
       },
       "specs": [],
-      "thumbnail": "images/products/391138/1.jpg"
+      "thumbnail": "images/thumbnails/391138.jpg"
     },
     {
       "id": 391141,
@@ -962,7 +933,7 @@
         "zh": "材质: 304不锈钢\n风格: 美式\n产地: 中国大陆\n流行元素: 纯色\n直径: 24cm\n深度: 12\n适用场景: 日常送礼\n适用对象: 燃气电磁灶通用\n锅底类型: 复合多层底\n适用人群: 大众"
       },
       "specs": [],
-      "thumbnail": "images/products/391141/1.png"
+      "thumbnail": "images/thumbnails/391141.jpg"
     },
     {
       "id": 391142,
@@ -990,7 +961,7 @@
         "zh": "闭合方式: 前系带\n尺码: 35 36 37 38 39\n图案: 纯色\n风格: 学院\n筒高: 短筒\n后跟高: 低跟(1-3cm)\n颜色分类: 森林黑（无内里） 故事咖（无内里） 森林黑（绒里） 故事咖（绒里）\n靴款品名: 时装靴\n鞋头款式: 圆头\n跟底款式: 粗跟\n鞋底材质: TPR(牛筋）\n鞋面内里材质: 无内里\n适用对象: 青年（18-40周岁）\n皮质特征: 打蜡\n鞋制作工艺: 胶粘鞋\n鞋垫材质: 头层猪皮\n帮面材质: 头层牛皮\n靴筒面材质: 头层牛皮\n靴筒内里材质: 无内里"
       },
       "specs": [],
-      "thumbnail": "images/products/391142/1.jpg"
+      "thumbnail": "images/thumbnails/391142.jpg"
     },
     {
       "id": 391146,
@@ -1018,7 +989,7 @@
         "zh": "材质: 瓷\n货号: 巴克9.25英寸深汤碗\n茶餐具工艺: 色釉\n图案: 纯色\n碗口直径: 8英寸以上\n个数: 1个\n风格: 北欧风格"
       },
       "specs": [],
-      "thumbnail": "images/products/391146/1.jpg"
+      "thumbnail": "images/thumbnails/391146.jpg"
     },
     {
       "id": 391152,
@@ -1047,7 +1018,7 @@
         "zh": "材质: 混纺\n图案: 纯色\n风格: 日式\n尺寸: 大中小可选\n颜色分类: 浅灰色 藏青色 麻本色 橙红色"
       },
       "specs": [],
-      "thumbnail": "images/products/391152/1.jpg"
+      "thumbnail": "images/thumbnails/391152.jpg"
     },
     {
       "id": 392332,
@@ -1075,7 +1046,7 @@
         "zh": "材质: 新骨瓷\n容量: 301mL(含)-400mL(含)\n风格: 北欧风格\n产地: 中国大陆\n流行元素: 纯色\n适用对象: 成人\n是否手工: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/392332/1.jpg"
+      "thumbnail": "images/thumbnails/392332.jpg"
     },
     {
       "id": 392366,
@@ -1103,7 +1074,7 @@
         "zh": "品牌: other/其他\n尺码: 均码\n风格: 通勤\n通勤: 韩版\n衣门襟: 拉链\n颜色分类: 军绿色\n袖长: 长袖\n厚薄: 常规\n衣长: 常规\n服装版型: 直筒"
       },
       "specs": [],
-      "thumbnail": "images/products/392366/1.png"
+      "thumbnail": "images/thumbnails/392366.jpg"
     },
     {
       "id": 392403,
@@ -1131,7 +1102,7 @@
         "zh": "适用年龄: 30-34周岁\n尺码: 90/XS 95/S 100/M 105/L 110/XL 115/XXL\n图案: 纯色\n风格: 通勤\n通勤: 简约\n领子: 高领\n衣门襟: 套头\n颜色分类: 梨茶色 鹅绒黄 浅茶绿 曜石黑色 芦米色 月灰色 淡雾紫色 鲑粉色 夕雾紫 威尼斯红 仙螺粉 石南粉 珊瑚红 橄榄绿 摩卡棕\n袖型: 常规\n组合形式: 单件\n袖长: 长袖\n款式: 套头\n厚薄: 常规\n衣长: 常规款\n服装版型: 修身\n流行元素/工艺: 螺纹\n材质成分: 山羊绒(羊绒)100%"
       },
       "specs": [],
-      "thumbnail": "images/products/392403/1.jpg"
+      "thumbnail": "images/thumbnails/392403.jpg"
     },
     {
       "id": 392802,
@@ -1160,7 +1131,7 @@
         "zh": "材质: 316不锈钢\n容量: 401mL(含)-500mL(含)\n风格: 欧式\n流行元素: 纯色\n颜色分类: 绅士黑 名流咖 枪灰色 钢本色 玫瑰金 皇家蓝 土豪金 素雅白\n毛重: 0.4kg\n用途: 保温杯\n杯子容量值: 500ml\n保温性能描述: 60度以上6小时\n适用场景: 日常送礼\n保温时长: 12小时(含)-24小时(不含)\n杯子样式: 直身杯\n适用人群: 大众"
       },
       "specs": [],
-      "thumbnail": "images/products/392802/1.jpg"
+      "thumbnail": "images/thumbnails/392802.jpg"
     },
     {
       "id": 392827,
@@ -1188,7 +1159,7 @@
         "zh": "流行元素: 纯色\n毛重: 550g\n伞布: 碰击布\n打开方式: 全自动\n货号: 7159\n半径: 55cm(含)-61cm(含)\n上市年份季节: 2018年夏季\n伞的种类: 晴雨伞\n适用对象: 成人\n性别: 男女通用\n伞杆材质: 不锈钢\n款式: 长柄伞\n伞面尺寸: 112cm"
       },
       "specs": [],
-      "thumbnail": "images/products/392827/1.jpg"
+      "thumbnail": "images/thumbnails/392827.jpg"
     },
     {
       "id": 392848,
@@ -1219,7 +1190,7 @@
         "zh": "功能: 防滑\n鞋码: S（适合35-37码） M（适合38-39码） L（适合40-41码） XL（适合42-43码）\n风格: 简约\n适用场地: 居家拖鞋\n鞋底材质: 橡胶 TPR\n适用对象: 青年\n款式: 包头\n帮面材质: 棉布\n鞋底厚度: 1.5cm(含)-3.5cm(不含)"
       },
       "specs": [],
-      "thumbnail": "images/products/392848/1.jpg"
+      "thumbnail": "images/thumbnails/392848.jpg"
     },
     {
       "id": 392874,
@@ -1246,7 +1217,7 @@
         "zh": "风格: 北欧风格\n流行元素: 马卡龙色\n颜色分类: 柠檬黄圆形洗衣篮 奶油白圆形洗衣篮 奶油黄内衣收纳盒\n商品类型: 整理/收纳\n脏衣篮种类: 其他\n适用人群: 大众"
       },
       "specs": [],
-      "thumbnail": "images/products/392874/1.jpg"
+      "thumbnail": "images/thumbnails/392874.jpg"
     },
     {
       "id": 392890,
@@ -1275,7 +1246,7 @@
         "zh": "材质: 草编\n尺码: 小号\n风格: 美式\n花器种类: 台面花瓶\n货号: hc-1023\n适用场景: 客厅 卧室 桌面 床头 居家 公司"
       },
       "specs": [],
-      "thumbnail": "images/products/392890/1.jpg"
+      "thumbnail": "images/thumbnails/392890.jpg"
     },
     {
       "id": 392919,
@@ -1303,7 +1274,7 @@
         "zh": "颜色分类: 黑色\n产地: 中国大陆\n材质: 皮革\n风格: 欧式"
       },
       "specs": [],
-      "thumbnail": "images/products/392919/1.jpg"
+      "thumbnail": "images/thumbnails/392919.jpg"
     },
     {
       "id": 392935,
@@ -1331,7 +1302,7 @@
         "zh": "材质: 金属\n产地: 其他\n适用空间: 餐厅\n颜色分类: 正餐刀 正餐叉 正餐勺 甜点刀 甜点叉 甜点勺 茶勺/咖啡勺 黄油刀 筷子+筷架 牛排刀<粗锯齿> 汤勺 酱料勺/小汤勺 蛋糕铲 沙拉组两件套 蛋糕叉<三叉> 长柄饮料勺 日本叉/水果叉"
       },
       "specs": [],
-      "thumbnail": "images/products/392935/1.jpg"
+      "thumbnail": "images/thumbnails/392935.jpg"
     },
     {
       "id": 392944,
@@ -1360,7 +1331,7 @@
         "zh": "风格: 日式\n流行元素: 小清新\n适用空间: 卧室\n毛重: 0.33\n货号: Ａ11\n适用季节: 冬季\n适用对象: 情侣\n是否手工: 否"
       },
       "specs": [],
-      "thumbnail": "images/products/392944/1.jpg"
+      "thumbnail": "images/thumbnails/392944.jpg"
     },
     {
       "id": 392998,
@@ -1388,7 +1359,7 @@
         "zh": "品牌: other/其他\n质地: 牛皮\n皮革材质: 头层牛皮\n闭合方式: 敞口\n图案: 纯色\n风格: 欧美时尚\n形状: 购物袋形\n成色: 全新\n流行元素: 机车\n内部结构: 拉链暗袋 手机袋 证件袋\n有无夹层: 有\n是否可折叠: 是\n背包方式: 单肩手提\n适用场景: 休闲\n里料材质: 涤棉\n肩带样式: 双根\n适用对象: 青年\n提拎部件类型: 软把\n箱包外袋种类: 敞口袋\n箱包硬度: 软\n款式: 单肩包\n大小: 大\n流行款式名称: 托特包"
       },
       "specs": [],
-      "thumbnail": "images/products/392998/1.jpg"
+      "thumbnail": "images/thumbnails/392998.jpg"
     },
     {
       "id": 393019,
@@ -1417,7 +1388,7 @@
         "zh": "颜色分类: 麻灰色洗衣筐 米咖色洗衣筐 麻灰色小号筐 米咖色小号筐 米咖色套装 麻灰色套装\n材质：棉\n脏衣篮种类: 其他"
       },
       "specs": [],
-      "thumbnail": "images/products/393019/1.jpg"
+      "thumbnail": "images/thumbnails/393019.jpg"
     },
     {
       "id": 393041,
@@ -1445,7 +1416,7 @@
         "zh": "颜色分类: 香槟色 蓝色 金色 紫色 黑色 银色\n流行元素: 纯色\n适用场景: 日常送礼\n适用空间: 餐厅\n材质: 304不锈钢\n刀叉勺产品: 牛油刀"
       },
       "specs": [],
-      "thumbnail": "images/products/393041/1.jpg"
+      "thumbnail": "images/thumbnails/393041.jpg"
     },
     {
       "id": 393057,
@@ -1472,7 +1443,7 @@
         "zh": "适用年龄: 18-24周岁\n面料: 棉\n尺码: S M L XL\n图案: 纯色\n风格: 通勤\n通勤: 韩版\n领型: 圆领\n流行元素: 褶皱\n主要颜色: 白色 银色 卡其色 浅灰色 深蓝色 黑色 深灰色 卡其 黑 白 深灰\n袖型: 常规\n成分含量: 86%(含)-95%(含)\n图案文化: 经典\n袖长: 长袖\n衣长: 常规款\n服装版型: 修身"
       },
       "specs": [],
-      "thumbnail": "images/products/393057/1.jpg"
+      "thumbnail": "images/thumbnails/393057.jpg"
     },
     {
       "id": 393095,
@@ -1501,7 +1472,7 @@
         "zh": "材质: 塑料\n风格: 欧式\n形状: 圆形\n尺寸: 12寸\n包装种类: 单只装\n颜色分类: 长方形砧板B款 手柄砧板B款 圆形砧板B款 点点线条 英文线条 色块点点\n适用人群: 大众\n是否手工: 否"
       },
       "specs": [],
-      "thumbnail": "images/products/393095/1.jpg"
+      "thumbnail": "images/thumbnails/393095.jpg"
     },
     {
       "id": 393157,
@@ -1528,7 +1499,7 @@
         "zh": "功能: 多功能\n材质: 人造棉\n图案: 动物图案\n风格: 韩版\n形状: 长方形\n性别: 女\n款式: 围巾/丝巾\n颜色分类: 小鹿米色 链条米色 链条灰黑 小鹿灰黑\n成分含量: 81%(含)-95%(含)\n适用季节: 春秋 夏季 冬季\n服装款式细节: 印花\n适用对象: 学生 青年 中年\n宽度: 120cm\n长度: 190cm"
       },
       "specs": [],
-      "thumbnail": "images/products/393157/1.jpg"
+      "thumbnail": "images/thumbnails/393157.jpg"
     },
     {
       "id": 393188,
@@ -1556,7 +1527,7 @@
         "zh": "材质: 其他\n容量: 301mL(含)-400mL(含)\n风格: 美式\n产地: 美国\n流行元素: 复古风\n适用空间: 户外\n适用场景: 旅行\n杯子样式: 有盖 带提绳\n适用人群: 大众\n是否手工: 否"
       },
       "specs": [],
-      "thumbnail": "images/products/393188/1.jpg"
+      "thumbnail": "images/thumbnails/393188.jpg"
     },
     {
       "id": 393209,
@@ -1585,7 +1556,7 @@
         "zh": "材质: 木\n木质材质: 橡木\n风格: 东南亚\n形状: 方形\n安装方式: 组装\n是否可定制: 否\n是否组装: 组装\n包装体积: 0.2立方米\n安装说明详情: 提供安装说明书"
       },
       "specs": [],
-      "thumbnail": "images/products/393209/1.jpg"
+      "thumbnail": "images/thumbnails/393209.jpg"
     },
     {
       "id": 393221,
@@ -1613,7 +1584,7 @@
         "zh": "风格: 东南亚\n安装方式: 组装\n是否可定制: 否\n适用对象: 成人\n斗数: 5斗\n是否组装: 组装\n包装体积: 0.6"
       },
       "specs": [],
-      "thumbnail": "images/products/393221/1.jpg"
+      "thumbnail": "images/thumbnails/393221.jpg"
     },
     {
       "id": 393232,
@@ -1641,7 +1612,7 @@
         "zh": "材质: 木\n图案: 其他\n风格: 北欧风格\n形状: 不规则\n尺寸: 10英寸\n颜色分类: 方盘小 方盘中 方盘大 圆盘小 圆盘大 色拉碗小 色拉碗大\n个数: 6个(含)-10个(含)\n适用对象: 成人\n盘类型: 平盘\n茶餐具工艺: 刻花"
       },
       "specs": [],
-      "thumbnail": "images/products/393232/1.png"
+      "thumbnail": "images/thumbnails/393232.jpg"
     },
     {
       "id": 393249,
@@ -1669,7 +1640,7 @@
         "zh": "闭合方式: 侧拉链\n尺码: 34 35 36 37 38 39\n图案: 纯色\n风格: 通勤\n筒高: 短筒\n流行元素: 交叉绑带 金属装饰\n后跟高: 超高跟(大于8cm)\n颜色分类: 黑色 黄色 黑色单里 黄色单里\n靴款品名: 马丁靴\n鞋头款式: 尖头\n厚薄: 常规\n跟底款式: 细跟\n鞋底材质: TPR(牛筋）\n鞋面内里材质: 人造短毛绒\n适用对象: 青年（18-40周岁）\n皮质特征: 修面皮\n鞋制作工艺: 胶粘鞋\n鞋垫材质: 人造短毛绒\n帮面材质: 头层牛皮\n靴筒面材质: 头层牛皮\n靴筒内里材质: 人造短毛绒"
       },
       "specs": [],
-      "thumbnail": "images/products/393249/1.jpg"
+      "thumbnail": "images/thumbnails/393249.jpg"
     },
     {
       "id": 393258,
@@ -1697,7 +1668,7 @@
         "zh": "流行元素: 小清新\n适用对象: 成人\n尺寸: 8英寸\n个数: 1个\n材质: 瓷\n茶餐具工艺: 釉下彩\n图案: 其他\n风格: 欧式\n盘类型: 平盘\n形状: 圆形"
       },
       "specs": [],
-      "thumbnail": "images/products/393258/1.jpg"
+      "thumbnail": "images/thumbnails/393258.jpg"
     },
     {
       "id": 393265,
@@ -1724,7 +1695,7 @@
         "zh": "材质: 合金+聚酯纤维\n流行元素: 小清新\n毛重: 360g\n伞布: 黑胶\n打开方式: 手动\n货号: 311双-叶\n半径: 55cm(含)-61cm(含)\n伞面涂层: 黑胶\n伞的种类: 晴雨伞\n适用对象: 成人\n性别: 女\n伞杆材质: 铝合金\n款式: 三折伞"
       },
       "specs": [],
-      "thumbnail": "images/products/393265/1.png"
+      "thumbnail": "images/thumbnails/393265.jpg"
     },
     {
       "id": 393279,
@@ -1751,7 +1722,7 @@
         "zh": "动力类型: 电池\n形状: 异形\n机芯品牌: 太阳机芯\n机芯类型: 扫秒机芯\n表盘材质: 金属\n镜面材质: 玻璃\n是否双面: 单面\n材质: 金属\n风格: 美式乡村\n尺寸: 14英寸 16英寸\n毛重: 1\n包装体积: 0.2\n颜色分类: 浪漫夜空"
       },
       "specs": [],
-      "thumbnail": "images/products/393279/1.jpg"
+      "thumbnail": "images/thumbnails/393279.jpg"
     },
     {
       "id": 393283,
@@ -1779,7 +1750,7 @@
         "zh": "品牌: 无\n型号: 无\n保护套质地: 塑料\n风格: 简约\n适用手机机型: MIUI/小米\n型号: 小米6 小米5 小米5s 小米5C\n款式: 保护壳\n流行元素: 抽象 油画"
       },
       "specs": [],
-      "thumbnail": "images/products/393283/1.jpg"
+      "thumbnail": "images/thumbnails/393283.jpg"
     },
     {
       "id": 393303,
@@ -1811,7 +1782,7 @@
         "zh": "型号: 蓝牙耳机\n功能: 支持音乐\n耳机材质: 塑料\n声道: 2\n蓝牙版本: 5.0\n套餐类型: 官方标配\n防水性能: IPX5\n使用方式: 入耳式\n传输半径: 10m\n是否单双耳: 双边立体声\n智能类型: 其他智能\n待机时间: 10天\n传输半径: 10m\n保修期: 24个月\n耳机左右腔体间连接方式: 无线连接\n耳机与播放设备连接方式: 蓝牙连接"
       },
       "specs": [],
-      "thumbnail": "images/products/393303/1.jpg"
+      "thumbnail": "images/thumbnails/393303.jpg"
     },
     {
       "id": 393307,
@@ -1842,7 +1813,7 @@
         "zh": "电池类型: 锂聚合物电池\n颜色分类: 【升级快充款|白色】18W双向快充 【经典热销款|白色】10.5W基础充\n最大输出功率: 18W\n附加功能: 多U口输出 支持快充\n外壳材质: 塑料\n尺寸: 167x81x32mm\n电芯类型: 软包\n电池容量: 30000mAh\n充电协议: pd2.0 PD3.0 QC2.0 QC3.0 FCP"
       },
       "specs": [],
-      "thumbnail": "images/products/393307/1.jpg"
+      "thumbnail": "images/thumbnails/393307.jpg"
     },
     {
       "id": 399006,
@@ -1871,7 +1842,7 @@
         "zh": "头型：U形\n螺纹规格：各式可选\n性能等级：4.8\n螺纹公差：4h\n材料：不锈钢\n表面处理：不经处理\n材料等级：不锈钢 304\n标准类型：国标\n标准编号：GB\n类型：卸扣卡扣\n等级：A级"
       },
       "specs": [],
-      "thumbnail": "images/products/399006/1.jpg"
+      "thumbnail": "images/thumbnails/399006.jpg"
     },
     {
       "id": 399045,
@@ -1897,7 +1868,7 @@
         "zh": "头型：圆形\n螺纹规格：各式可选\n性能等级：4.8\n螺纹公差：4h\n材料：不锈钢\n表面处理：不经处理\n材料等级：不锈钢 304\n标准类型：国标\n标准编号：GB\n类型：膨胀螺栓"
       },
       "specs": [],
-      "thumbnail": "images/products/399045/1.jpg"
+      "thumbnail": "images/thumbnails/399045.jpg"
     },
     {
       "id": 399073,
@@ -1925,7 +1896,7 @@
         "zh": "头型：异形\n螺纹规格：各式可选\n性能等级：4.8\n螺纹公差：4h\n材料：碳钢\n表面处理：不经处理\n类型：膨胀螺栓"
       },
       "specs": [],
-      "thumbnail": "images/products/399073/1.jpg"
+      "thumbnail": "images/thumbnails/399073.jpg"
     },
     {
       "id": 63925,
@@ -1955,7 +1926,7 @@
         "zh": "品牌: other/其他\n适用年龄: 2-8岁（47-53厘米）\n帽围: 可调节\n适用性别: 中性\n适用季节：夏季"
       },
       "specs": [],
-      "thumbnail": "images/products/63925/1.jpg"
+      "thumbnail": "images/thumbnails/63925.jpg"
     },
     {
       "id": 63931,
@@ -1984,7 +1955,7 @@
         "zh": "商品毛重：0.77kg\n材质：塑料\n特点：可冷冻，其它\n形状：长方形\n类别：冰箱收纳盒\n容量：2001-5000ml"
       },
       "specs": [],
-      "thumbnail": "images/products/63931/1.jpg"
+      "thumbnail": "images/thumbnails/63931.jpg"
     },
     {
       "id": 63940,
@@ -2012,7 +1983,7 @@
         "zh": "材质: 金属\n颜色分类: 黄色/橘色/白色/蓝色/灰色/黑色\n附加功能: 拆装 翻转 悬挂 储藏 其他"
       },
       "specs": [],
-      "thumbnail": "images/products/63940/1.jpg"
+      "thumbnail": "images/thumbnails/63940.jpg"
     },
     {
       "id": 64174,
@@ -2041,7 +2012,7 @@
         "zh": "型号: S02015-2C11-2\n材质: ABS工程树脂\n颜色分类: 单花洒头/花洒头+软管/花洒+软管+座子"
       },
       "specs": [],
-      "thumbnail": "images/products/64174/1.jpg"
+      "thumbnail": "images/thumbnails/64174.jpg"
     },
     {
       "id": 64697,
@@ -2070,7 +2041,7 @@
         "zh": "型号: MS-9023三格条子笔筒\n风格: 日式\n流行元素: 复古风\n颜色分类: 做旧色\n是否手工: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/64697/1.jpg"
+      "thumbnail": "images/thumbnails/64697.jpg"
     },
     {
       "id": 67032,
@@ -2099,7 +2070,7 @@
         "zh": "是否有香味: 无香\n抽数: 其他\n原材料成分: 原生浆\n层数: 4层\n每箱包数: 40包\n面巾纸种类: 抽取式面巾纸\n是否印花: 印花\n是否量贩装: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/67032/1.jpg"
+      "thumbnail": "images/thumbnails/67032.jpg"
     },
     {
       "id": 67045,
@@ -2128,7 +2099,7 @@
         "zh": "分类: 家用\n层数: 4层\n原材料成分: 原生浆\n是否印花: 印花\n是否含芯: 无芯卷纸\n是否有香味: 无香\n是否量贩装: 是\n每袋装: 32卷"
       },
       "specs": [],
-      "thumbnail": "images/products/67045/1.jpg"
+      "thumbnail": "images/thumbnails/67045.jpg"
     },
     {
       "id": 67401,
@@ -2158,7 +2129,7 @@
         "zh": "风格: 多功能\n颜色分类: 北欧蓝/北欧绿/北欧粉/北欧米\n毛重: 0.5\n包装方式: 其他\n礼品类别: 其他礼品 创意类礼品"
       },
       "specs": [],
-      "thumbnail": "images/products/67401/1.jpg"
+      "thumbnail": "images/thumbnails/67401.jpg"
     },
     {
       "id": 67402,
@@ -2187,7 +2158,7 @@
         "zh": "商品毛重：1.0kg\n厚度：2-5cm\n面料：其它\n类别：床垫\n尺寸：80*190cm\n适用床尺寸：其它\n材质：其它"
       },
       "specs": [],
-      "thumbnail": "images/products/67402/1.jpg"
+      "thumbnail": "images/thumbnails/67402.jpg"
     },
     {
       "id": 67403,
@@ -2216,7 +2187,7 @@
         "zh": "材质: 其他\n颜色分类: 多色可选\n是否量贩装: 是"
       },
       "specs": [],
-      "thumbnail": "images/products/67403/1.jpg"
+      "thumbnail": "images/thumbnails/67403.jpg"
     },
     {
       "id": 16146,
@@ -2244,7 +2215,7 @@
         "zh": "品牌: 其他/Other\n材质: 树脂\n颜色分类: 瑜伽少女蓝色+金色，两件一套"
       },
       "specs": [],
-      "thumbnail": "images/products/16146/1.jpg"
+      "thumbnail": "images/thumbnails/16146.jpg"
     },
     {
       "id": 16147,
@@ -2272,7 +2243,7 @@
         "zh": "品牌: other/其他\n材质: 金属\n金属材质: 铁\n风格: 北欧\n颜色分类: 黑色/白色\n是否可定制: 是\n抽屉数量: 无\n是否组装: 整装"
       },
       "specs": [],
-      "thumbnail": "images/products/16147/1.jpg"
+      "thumbnail": "images/thumbnails/16147.jpg"
     },
     {
       "id": 16149,
@@ -2302,7 +2273,7 @@
         "zh": "商品毛重：2.0kg\n风格：北欧风格\n放置方式：其它\n类别：花瓶花艺套装\n材质：陶瓷"
       },
       "specs": [],
-      "thumbnail": "images/products/16149/1.jpg"
+      "thumbnail": "images/thumbnails/16149.jpg"
     },
     {
       "id": 16150,
@@ -2331,7 +2302,7 @@
         "zh": "商品毛重：100.00g\n支架：吊装\n开门数量：1\n类别：其它\n功能：免安装"
       },
       "specs": [],
-      "thumbnail": "images/products/16150/1.jpg"
+      "thumbnail": "images/thumbnails/16150.jpg"
     },
     {
       "id": 16151,
@@ -2360,7 +2331,7 @@
         "zh": "材质: 树脂\n风格: 美式\n适用空间: 客厅\n颜色分类: 古铜色/蓝色\n包装方式: 其他\n工艺: 半手工\n是否可定制: 否"
       },
       "specs": [],
-      "thumbnail": "images/products/16151/1.jpg"
+      "thumbnail": "images/thumbnails/16151.jpg"
     },
     {
       "id": 2800138,
@@ -2392,7 +2363,7 @@
         "zh": "材质：ABS+PC材质\n\n功能：USB接口,耐磨,杯架,手机架,前开口,可登机,干湿分离\n\n滚轮样式：万向轮\n\n里料：涤纶\n\n颜色：谷物白,茱萸粉,耀夜黑,薄荷绿\n\n尺寸：20寸,24寸,26寸,18寸\n\n是否有扩展层：是\n\n重量：3-5公斤"
       },
       "specs": [],
-      "thumbnail": "images/products/2800138/1.jpg"
+      "thumbnail": "images/thumbnails/2800138.jpg"
     },
     {
       "id": 2800171,
@@ -2423,7 +2394,7 @@
         "zh": "材质：ABS+PC材质\n滚轮样式：万向轮\n里料：涤纶\n颜色：白色，黑色，粉色，白加蓝，冰川蓝，子母套装\n尺寸：20寸,24寸,26寸,28寸,30寸\n是否有扩展层：否\n重量：3-5公斤"
       },
       "specs": [],
-      "thumbnail": "images/products/2800171/1.jpg"
+      "thumbnail": "images/thumbnails/2800171.jpg"
     },
     {
       "id": 2811302,
@@ -2449,7 +2420,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布\n尺寸：32.3 x 17 x 7 cm"
       },
       "specs": [],
-      "thumbnail": "images/products/2811302/1.jpg"
+      "thumbnail": "images/thumbnails/2811302.jpg"
     },
     {
       "id": 2821383,
@@ -2475,7 +2446,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布\n尺寸：32.3 x 15 x 7 cm"
       },
       "specs": [],
-      "thumbnail": "images/products/2821383/1.jpg"
+      "thumbnail": "images/thumbnails/2821383.jpg"
     },
     {
       "id": 2821530,
@@ -2501,7 +2472,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布\n尺寸：32.3 x 15 x 7 cm"
       },
       "specs": [],
-      "thumbnail": "images/products/2821530/1.jpg"
+      "thumbnail": "images/thumbnails/2821530.jpg"
     },
     {
       "id": 2821632,
@@ -2528,7 +2499,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布\n尺寸：32.5 x 15 x 14.5 cm"
       },
       "specs": [],
-      "thumbnail": "images/products/2821632/1.jpg"
+      "thumbnail": "images/thumbnails/2821632.jpg"
     },
     {
       "id": 2821691,
@@ -2554,7 +2525,7 @@
         "zh": "材质：红色PU\n内里：绒布"
       },
       "specs": [],
-      "thumbnail": "images/products/2821691/1.jpg"
+      "thumbnail": "images/thumbnails/2821691.jpg"
     },
     {
       "id": 2821994,
@@ -2580,7 +2551,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布"
       },
       "specs": [],
-      "thumbnail": "images/products/2821994/1.jpg"
+      "thumbnail": "images/thumbnails/2821994.jpg"
     },
     {
       "id": 2822004,
@@ -2606,7 +2577,7 @@
         "zh": "材质：PU/PVC,花纹可定制\n内里：绒布"
       },
       "specs": [],
-      "thumbnail": "images/products/2822004/1.jpg"
+      "thumbnail": "images/thumbnails/2822004.jpg"
     },
     {
       "id": 63943,
@@ -2635,7 +2606,7 @@
         "zh": "材质: 金属\n金属材质: 铁\n风格: 简约现代\n颜色分类: 棕色/黑色/白色\n毛重: 8公斤\n饰面材质: 其他"
       },
       "specs": [],
-      "thumbnail": "images/products/63943/1.jpg"
+      "thumbnail": "images/thumbnails/63943.jpg"
     },
     {
       "id": 64186,
@@ -2664,7 +2635,7 @@
         "zh": "商品名称：简约沙发边桌边几角几多功能小茶几卧室床头桌置物架家用小圆桌子\n商品编号：67096752329\n商品毛重：25.0kg\n颜色: 不同花纹，3层/2层可选"
       },
       "specs": [],
-      "thumbnail": "images/products/64186/1.jpg"
+      "thumbnail": "images/thumbnails/64186.jpg"
     }
   ]
 }

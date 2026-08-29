@@ -3,7 +3,7 @@ import styles from './About.module.css';
 import { useI18n } from '../context/I18nContext';
 
 const About = () => {
-    const { t } = useI18n();
+    const { t, language } = useI18n();
 
     return (
         <section className={styles.about} id="about">
@@ -12,17 +12,19 @@ const About = () => {
                     <div className={styles.imageSide}>
                         <img
                             src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000"
-                            alt="办公环境"
+                            alt={t('about.imageAlt')}
                             className={styles.image}
                         />
                         <div className={styles.experience}>
                             <span className={styles.years}>2020</span>
-                            <span className={styles.expText}>立足行业，服务全球</span>
+                            <span className={styles.expText}>{t('about.experience')}</span>
                         </div>
                     </div>
                     <div className={styles.contentSide}>
                         <h4 className={styles.preTitle}>{t('about.pretitle')}</h4>
-                        <h2 className={styles.title}>{t('about.title')}</h2>
+                        <h2 className={`${styles.title} ${language === 'en' ? styles.titleEnglish : ''}`}>
+                            {t('about.title')}
+                        </h2>
                         <div className={styles.underline}></div>
                         <p className={styles.description}>
                             {t('about.desc1')}

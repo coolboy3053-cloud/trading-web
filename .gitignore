@@ -73,7 +73,13 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.local
 .env.test
+
+# Local product data exports and backups
+public/data/*.bak
+public/data/products_scraped.json
+utils/scraper/scraped_data.json
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

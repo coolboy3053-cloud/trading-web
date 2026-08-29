@@ -30,6 +30,16 @@
     letter-spacing: -0.025em;
     color: var(--white);
     cursor: pointer;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.logo:focus-visible,
+.mobileMenuBtn:focus-visible,
+.langBtn:focus-visible {
+    outline: 2px solid var(--white);
+    outline-offset: 4px;
 }
 
 .logoImg {

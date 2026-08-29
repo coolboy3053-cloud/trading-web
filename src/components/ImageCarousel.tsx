@@ -40,6 +40,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
                     src={images[currentIndex]}
                     alt={`${alt} - ${currentIndex + 1}`}
                     className={styles.mainImage}
+                    decoding="async"
                 />
 
                 {/* 左右箭头 - 仅在有多张图片时显示 */}
@@ -82,7 +83,12 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
                                 onClick={() => goToIndex(index)}
                                 aria-label={`查看第 ${index + 1} 张图片`}
                             >
-                                <img src={image} alt={`${alt} 缩略图 ${index + 1}`} />
+                                <img
+                                    src={image}
+                                    alt={`${alt} 缩略图 ${index + 1}`}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </button>
                         ))}
                     </div>

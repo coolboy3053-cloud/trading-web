@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={styles.bottom}>
-                    <p>{t('footer.copyright')}</p>
+                    <p>© {t('footer.copyrightOwner')}. All rights reserved.</p>
                 </div>
 
             </div>

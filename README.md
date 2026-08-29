@@ -1,4 +1,4 @@
-# 百盛贸易网站
+# 柏盛贸易网站
 
 东莞市柏盛贸易有限公司官方网站 - 专业的进出口贸易综合服务商
 
@@ -203,7 +203,7 @@ https://cdn.jsdelivr.net/gh/username/repo@main/images/product.jpg
 
 ## 📄 许可证
 
-Copyright © 2025 东莞市柏盛贸易有限公司
+Copyright © 东莞市柏盛贸易有限公司
 
 ## 📞 联系方式
 

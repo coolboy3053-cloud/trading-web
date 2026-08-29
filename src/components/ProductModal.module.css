@@ -28,6 +28,7 @@
     position: relative;
     overflow: hidden;
     animation: slideUp 0.3s ease-out;
+    outline: none;
 }
 
 .closeBtn {
@@ -191,6 +192,12 @@
     gap: 1rem;
 }
 
+.actionButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
 .actionBtn {
     background-color: var(--accent);
     color: white;
@@ -205,6 +212,7 @@
     gap: 0.5rem;
     cursor: pointer;
     transition: background 0.2s;
+    text-decoration: none;
 }
 
 .actionBtn:hover {
@@ -271,4 +279,18 @@
     .title {
         font-size: 1.5rem;
     }
+
+    .actionButtons {
+        grid-template-columns: 1fr;
+    }
+}
+
+.secondary {
+    background: var(--white);
+    color: var(--slate-700);
+    border: 1px solid var(--slate-200);
+}
+
+.secondary:hover {
+    background: var(--slate-100);
 }
